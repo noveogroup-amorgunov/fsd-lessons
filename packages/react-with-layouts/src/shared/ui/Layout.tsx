@@ -11,6 +11,7 @@ export function Layout({ children, headerRightSlot }: Props) {
       <header className="flex items-center justify-between">
         <nav className="flex items-center gap-4">
           <Link href="/">Home</Link>
+          <Link href="/login">Login</Link>
           <Link href="/profile">Profile</Link>
         </nav>
         {headerRightSlot}

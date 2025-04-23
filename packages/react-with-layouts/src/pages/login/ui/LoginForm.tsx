@@ -1,17 +1,4 @@
-import { Button } from '~/shared/ui/Button'
-
-/*
-input {
-    border: 1px solid #000;
-    padding: 4px 8px;
-    border-radius: 8px;
-}
-
-label {
-  color: #777;
-  font-size: 14px;
-}
-*/
+import { Button } from '@monorepo/react-core/uikit'
 
 export function LoginForm() {
   return (

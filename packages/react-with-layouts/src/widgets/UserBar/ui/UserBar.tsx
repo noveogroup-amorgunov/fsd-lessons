@@ -9,7 +9,7 @@ export function UserBar() {
   const user = useUser()
 
   return (
-    <div data-fsd="widget/user-bar" className="min-w-50">
+    <div data-fsd="widget/user-bar">
       <Link to="/profile">
         Hey,
         {' '}
