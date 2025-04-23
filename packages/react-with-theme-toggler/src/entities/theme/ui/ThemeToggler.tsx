@@ -3,7 +3,7 @@ import { wrap } from '@reatom/core'
 import { reatomComponent } from '@reatom/react'
 import { theme } from '../model/store'
 
-export const ThemeToggler = reatomComponent(function ThemeToggler() {
+export const ThemeToggler = reatomComponent(() => {
   const Icon = theme() === 'light' ? SunIcon : MoonIcon
 
   return (
