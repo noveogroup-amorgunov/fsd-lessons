@@ -1,0 +1,7 @@
+@import "tailwindcss" source(none);
+
+@source "../**/*.{ts,tsx}"; /* Current app */
+@source "../../index.html";
+@source "../../../../packages/react-core/src/shared/**/*.{ts,tsx}"; /* React core */
+
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
