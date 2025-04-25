@@ -7,7 +7,7 @@ type Props = {
 
 export function Layout({ children, headerRightSlot }: Props) {
   return (
-    <div data-fsd="shared/Layout" className="flex flex-col gap-4 p-4 m-1 min-h-screen">
+    <div data-fsd="shared/Layout" className="flex flex-col gap-4 p-4 m-1 h-full">
       <header className="flex items-center justify-between">
         <nav className="flex items-center gap-4">
           <Link href="/">Home</Link>

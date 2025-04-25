@@ -3,32 +3,40 @@ import { Button } from '@monorepo/react-core/uikit'
 export function LoginForm() {
   return (
     <form onSubmit={() => {}} data-fsd="page/login/LoginForm">
-      <div className="flex flex-col gap-6 py-6">
-        <div className="grid gap-2">
-          <label className="text-sm text-gray-500" htmlFor="email">
+      <div className="flex flex-col gap-1 p-6">
+        <fieldset className="mb-[15px] flex items-center gap-5">
+          <label
+            className="w-[90px] text-right text-[15px]"
+            htmlFor="email"
+          >
             Email
           </label>
           <input
-            className="border-1 border-black rounded-8px p-2"
+            className="inline-flex h-[35px] w-full flex-1 items-center justify-center rounded px-2.5 text-[15px] leading-none shadow-[0_0_0_1px] outline-none focus:shadow-[0_0_0_2px]"
             id="email"
             type="email"
             placeholder="m@example.com"
             required
           />
-        </div>
-        <div className="grid gap-2">
-          <label className="text-sm text-gray-500" htmlFor="password">
+        </fieldset>
+        <fieldset className="mb-[15px] flex items-center gap-5">
+          <label
+            className="w-[90px] text-right text-[15px]"
+            htmlFor="password"
+          >
             Password
           </label>
           <input
-            className="border-1 border-black rounded-8px p-2"
+            className="inline-flex h-[35px] w-full flex-1 items-center justify-center rounded px-2.5 text-[15px] leading-none shadow-[0_0_0_1px] outline-none focus:shadow-[0_0_0_2px]"
             id="password"
             type="password"
             required
           />
+        </fieldset>
+        <div className="flex justify-end">
+          <Button type="submit">Login</Button>
         </div>
       </div>
-      <Button type="submit">Login</Button>
     </form>
   )
 }
