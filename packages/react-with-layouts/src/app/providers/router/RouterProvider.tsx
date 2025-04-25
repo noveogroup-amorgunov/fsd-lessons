@@ -4,8 +4,8 @@ import { Route as RouteWouter, Switch } from 'wouter'
 import { HomePage } from '~/pages/home'
 import { LoginPage } from '~/pages/login'
 import { ProfilePage } from '~/pages/profile'
-import { EmptyLayout } from '~/shared/ui/EmptyLayout.tsx'
-import { BaseLayoutProvider as BaseLayout } from '../layout/BaseLayoutProvider.tsx'
+import { EmptyLayout } from '~/shared/ui/EmptyLayout'
+import { BaseLayoutProvider as BaseLayout } from '../layout/BaseLayoutProvider'
 
 type Props = {
   layout: ComponentType<{ children: React.ReactNode }>

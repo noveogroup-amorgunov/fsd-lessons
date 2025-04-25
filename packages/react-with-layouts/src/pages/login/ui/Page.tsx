@@ -3,7 +3,7 @@ import { LoginForm } from './LoginForm'
 
 export function LoginPage() {
   return (
-    <div data-fsd="page/login" className="flex min-h-[calc(100vh-1rem)] items-center justify-center m-1">
+    <div data-fsd="page/login" className="flex items-center justify-center">
       <div className="">
         <h1 className="text-3xl font-bold">Login</h1>
         <div className="text-sm text-gray-500">
