@@ -78,6 +78,91 @@ importers:
         specifier: ^6.3.1
         version: 6.3.2(@types/node@22.14.1)(jiti@2.4.2)(lightningcss@1.29.2)(yaml@2.7.1)
 
+  packages/react-with-dialog-manager:
+    dependencies:
+      '@monorepo/react-core':
+        specifier: workspace:*
+        version: link:../react-core
+      '@radix-ui/react-icons':
+        specifier: ^1.3.2
+        version: 1.3.2(react@19.1.0)
+      '@radix-ui/react-slot':
+        specifier: ^1.2.0
+        version: 1.2.0(@types/react@19.1.2)(react@19.1.0)
+      '@reatom/core':
+        specifier: 1000.0.0-alpha.11
+        version: 1000.0.0-alpha.11
+      '@reatom/react':
+        specifier: 1000.0.0-alpha.4
+        version: 1000.0.0-alpha.4(react@19.1.0)
+      '@tailwindcss/vite':
+        specifier: ^4.1.4
+        version: 4.1.4(vite@6.3.2(@types/node@22.14.1)(jiti@2.4.2)(lightningcss@1.29.2)(yaml@2.7.1))
+      class-variance-authority:
+        specifier: ^0.7.1
+        version: 0.7.1
+      classnames:
+        specifier: ^2.5.1
+        version: 2.5.1
+      radix-ui:
+        specifier: ^1.3.4
+        version: 1.3.4(@types/react-dom@19.1.2(@types/react@19.1.2))(@types/react@19.1.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      react:
+        specifier: ^19.0.0
+        version: 19.1.0
+      react-dom:
+        specifier: ^19.0.0
+        version: 19.1.0(react@19.1.0)
+      tailwindcss:
+        specifier: ^4.1.4
+        version: 4.1.4
+    devDependencies:
+      '@antfu/eslint-config':
+        specifier: ^4.12.0
+        version: 4.12.0(@eslint-react/eslint-plugin@1.48.4(eslint@9.25.0(jiti@2.4.2))(ts-api-utils@2.1.0(typescript@5.7.3))(typescript@5.7.3))(@typescript-eslint/utils@8.30.1(eslint@9.25.0(jiti@2.4.2))(typescript@5.7.3))(@vue/compiler-sfc@3.5.13)(eslint-plugin-react-hooks@5.2.0(eslint@9.25.0(jiti@2.4.2)))(eslint-plugin-react-refresh@0.4.19(eslint@9.25.0(jiti@2.4.2)))(eslint@9.25.0(jiti@2.4.2))(typescript@5.7.3)
+      '@eslint-react/eslint-plugin':
+        specifier: ^1.48.4
+        version: 1.48.4(eslint@9.25.0(jiti@2.4.2))(ts-api-utils@2.1.0(typescript@5.7.3))(typescript@5.7.3)
+      '@eslint/js':
+        specifier: ^9.22.0
+        version: 9.25.0
+      '@types/node':
+        specifier: ^22.14.1
+        version: 22.14.1
+      '@types/react':
+        specifier: ^19.0.10
+        version: 19.1.2
+      '@types/react-dom':
+        specifier: ^19.0.4
+        version: 19.1.2(@types/react@19.1.2)
+      '@vitejs/plugin-react':
+        specifier: ^4.3.4
+        version: 4.4.1(vite@6.3.2(@types/node@22.14.1)(jiti@2.4.2)(lightningcss@1.29.2)(yaml@2.7.1))
+      eslint:
+        specifier: ^9.22.0
+        version: 9.25.0(jiti@2.4.2)
+      eslint-plugin-react-hooks:
+        specifier: ^5.2.0
+        version: 5.2.0(eslint@9.25.0(jiti@2.4.2))
+      eslint-plugin-react-refresh:
+        specifier: ^0.4.19
+        version: 0.4.19(eslint@9.25.0(jiti@2.4.2))
+      globals:
+        specifier: ^16.0.0
+        version: 16.0.0
+      typescript:
+        specifier: ~5.7.2
+        version: 5.7.3
+      typescript-eslint:
+        specifier: ^8.26.1
+        version: 8.30.1(eslint@9.25.0(jiti@2.4.2))(typescript@5.7.3)
+      vite:
+        specifier: ^6.3.1
+        version: 6.3.2(@types/node@22.14.1)(jiti@2.4.2)(lightningcss@1.29.2)(yaml@2.7.1)
+      wouter:
+        specifier: ^3.7.0
+        version: 3.7.0(react@19.1.0)
+
   packages/react-with-feature-flags:
     dependencies:
       '@monorepo/react-core':

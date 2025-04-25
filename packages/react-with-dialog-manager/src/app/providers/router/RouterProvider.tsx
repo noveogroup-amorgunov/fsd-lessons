@@ -1,15 +1,12 @@
 import { RouteWithLayout as Route } from '@monorepo/react-core/lib/wouter'
-import { EmptyLayout } from '@monorepo/react-core/ui'
 import { Switch } from 'wouter'
 import { HomePage } from '~/pages/home'
-import { LoginPage } from '~/pages/login'
 import { ProfilePage } from '~/pages/profile'
 import { BaseLayoutProvider as BaseLayout } from '../layout/BaseLayoutProvider.tsx'
 
 const routes = [
   { path: '/', component: HomePage, layout: BaseLayout },
   { path: '/profile', component: ProfilePage, layout: BaseLayout },
-  { path: '/login', component: LoginPage, layout: EmptyLayout },
 ]
 
 export function RouterProvider() {
