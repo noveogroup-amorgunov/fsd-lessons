@@ -10,7 +10,9 @@
     "./base.css": "./src/shared/ui/base.css",
     "./lib/reatom": "./src/shared/lib/reatom/index.ts",
     "./lib/wouter": "./src/shared/lib/wouter/index.ts",
-    "./services/theme": "./src/services/theme/index.ts"
+    "./services/theme": "./src/services/theme/index.ts",
+    "./services/feature-flags": "./src/services/feature-flags/index.ts",
+    "./services/debug-mode": "./src/services/debug-mode/index.ts"
   },
   "scripts": {
     "build": "tsc",
