@@ -1,2 +1,4 @@
 export { BaseLayout } from './BaseLayout'
 export { EmptyLayout } from './EmptyLayout'
+export { Dialog } from './Dialog'
+export { AlertDialog } from './AlertDialog'
