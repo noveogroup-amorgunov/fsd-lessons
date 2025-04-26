@@ -18,10 +18,10 @@ pnpm i --frozen-lockfile
 - **[packages/react-with-theme-toggler](./packages/react-with-theme-toggler)**
 - **[packages/react-with-feature-flags](./packages/react-with-feature-flags)**
 - **[packages/react-with-dialog-manager](./packages/react-with-dialog-manager)**
+- **[packages/react-with-api](./packages/react-with-api)**
 
 ## Roadmap
 
-- [ ] react-with-api
 - [ ] react-with-redux
 - [ ] react-with-redux-toolkit-query
 - [ ] react-with-i18n
