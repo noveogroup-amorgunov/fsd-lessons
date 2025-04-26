@@ -4,7 +4,13 @@
 
 A collection of examples that show how you can build applications with [Feature-Sliced Design](https://feature-sliced.design/).
 
-Examples are build on _react_, _vite_, _typescript_, _tailwind_, _wouter_, _redux toolkit_, _redux tooltik query_ (_rtkq_), _reatom@v1000_, _radix ui_ and so on.
+Examples are build on _react_, _vite_, _typescript_, _tailwind_, _wouter_, _redux toolkit_, _redux toolkit query_ (_rtkq_), _reatom@v1000_, _radix ui_ and so on.
+
+## Install
+
+```bash
+pnpm i --frozen-lockfile
+```
 
 ## List
 
