@@ -25,5 +25,5 @@
     "skipLibCheck": true,
     "noUncheckedSideEffectImports": true
   },
-  "include": ["src", "../react-core/src/services/feature-flags"]
+  "include": ["src"]
 }
