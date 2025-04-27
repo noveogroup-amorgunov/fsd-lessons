@@ -1,6 +1,6 @@
 # react-with-api
 
-This example shows how to work with dialog (modal) manager.
+This example shows how to work with API.
 
 ### How to use
 
