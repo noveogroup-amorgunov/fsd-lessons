@@ -1,2 +1,2 @@
-export { fecthPokemonApi } from './pokemon/fecthPokemonApi'
+export { fetchPokemonApi } from './pokemon/fetchPokemonApi'
 export type { PokemonDto } from './pokemon/types'

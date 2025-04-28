@@ -1,14 +1,42 @@
 import { Button } from '@monorepo/react-core/uikit'
-import { wrap } from '@reatom/core'
+import { atom, computed, withAsyncData, wrap } from '@reatom/core'
 import { reatomComponent } from '@reatom/react'
 import type { FormEvent } from 'react'
-import { PokemonCard, selectedPokemonId, pokemonResource } from '~/entities/pokemon'
+import { PokemonCard } from '~/entities/pokemon'
 import { Input } from '~/shared/ui/Input'
 import { queryAtom } from '../model/store'
+import { queryPokemonById } from '~/entities/pokemon/api/queryPokemonById'
+import { AlertDialog } from '@monorepo/react-core/ui'
+import { dialogs } from '@monorepo/react-core/services/dialog-manager'
+
+
+export const selectedPokemonId = atom(35, 'selectedPokemonId')
+
+export const pokemonResource = computed(async () => {
+  const pokemonId = selectedPokemonId()
+
+  try {
+    const data = await wrap(queryPokemonById(pokemonId))
+    return data
+  } catch (error) {
+    // @ts-expect-error fix reatom actions
+    dialogs.open(AlertDialog, {
+      title: 'Error',
+      message: 'Failed to fetch pokemon',
+      onClose: wrap(() => {
+        dialogs.close(AlertDialog)
+      }),
+    })
+
+    throw error
+  }
+}, 'pokemonResource').extend(withAsyncData(null))
 
 export const HomePage = reatomComponent(() => {
   const query = queryAtom() 
   const ready = pokemonResource.ready()
+  const data = pokemonResource.data()
+  const error = pokemonResource.error()
 
   const handleSubmit = wrap((event: FormEvent<HTMLFormElement>) => {
     event.preventDefault()
@@ -26,7 +54,7 @@ export const HomePage = reatomComponent(() => {
         </form>
       </div>
       <div className="flex gap-4">
-        <PokemonCard pokemonId={selectedPokemonId()} />
+        <PokemonCard data={data} isLoading={!ready} error={error} />
       </div>
     </main>
   )
