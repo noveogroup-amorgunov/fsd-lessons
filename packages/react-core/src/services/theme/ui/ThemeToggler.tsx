@@ -4,13 +4,18 @@ import { reatomComponent } from '@reatom/react'
 import { theme } from '../model/store'
 
 export const ThemeToggler = reatomComponent(() => {
-  const Icon = theme() === 'light' ? SunIcon : MoonIcon
+  const currentTheme = theme()
+  const Icon = currentTheme === 'light' ? SunIcon : MoonIcon
+
+  const toggleTheme = wrap(() => {
+    theme(currentTheme === 'light' ? 'dark' : 'light')
+  })
 
   return (
-    <div className="flex">
-      <button className="cursor-pointer" onClick={wrap(theme.toggle)}>
+    <div data-fsd="entity/theme-toggler" className="inline-flex">
+      <button className="cursor-pointer" onClick={toggleTheme}>
         <Icon width={24} height={24} />
       </button>
     </div>
   )
-})
+}, 'ThemeToggler')
