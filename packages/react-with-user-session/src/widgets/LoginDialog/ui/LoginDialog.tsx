@@ -1,36 +1,34 @@
-import { useDialog } from '@monorepo/react-core/services/dialog-manager'
-import { AlertDialog } from '@monorepo/react-core/ui'
 import { Button } from '@monorepo/react-core/uikit'
 import { UpdateIcon } from '@radix-ui/react-icons'
+import { wrap } from '@reatom/core'
 import { reatomComponent } from '@reatom/react'
-import { useEffect, useRef, useState } from 'react'
+import { ApiError } from '~/shared/api'
+import { email, password, submitForm } from '../model/store'
 
-export const LoginDialog = reatomComponent(() => {
-  const { show: showAlert } = useDialog(AlertDialog)
-  const [isLoading, setIsLoading] = useState(false)
-  const timeoutRef = useRef<NodeJS.Timeout | null>(null)
+export const LoginDialog = reatomComponent(({ onClose }: { onClose: () => void }) => {
+  const formIsReady = submitForm.ready()
+  const formError = submitForm.error()
 
-  useEffect(() => {
-    return () => {
-      if (timeoutRef.current) {
-        clearTimeout(timeoutRef.current)
-      }
+  // FIXME: Add errors from backend zod validation
+  const formErrorMessage = formError instanceof ApiError
+    ? formError.body.message
+    : formError
+      ? 'Something went wrong... Try again later'
+      : null
+
+  const onFormSubmit = wrap(async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault()
+
+    const data = await submitForm()
+
+    // @ts-expect-error fix reatom types
+    if (!data.error) {
+      onClose()
     }
-  }, [])
-
-  const onClick = () => {
-    setIsLoading(true)
-    timeoutRef.current = setTimeout(() => {
-      setIsLoading(false)
-      showAlert({
-        title: 'Alert',
-        message: 'Some error',
-      })
-    }, 2000)
-  }
+  })
 
   return (
-    <form onSubmit={() => {}} data-fsd="widget/LoginDialog">
+    <form onSubmit={onFormSubmit} data-fsd="widget/LoginDialog">
       <div className="flex flex-col gap-1 p-6">
         <fieldset className="mb-[15px] flex items-center gap-5">
           <label
@@ -44,6 +42,8 @@ export const LoginDialog = reatomComponent(() => {
             id="email"
             type="email"
             placeholder="m@example.com"
+            value={email()}
+            onChange={wrap(e => email(e.target.value))}
             required
           />
         </fieldset>
@@ -58,13 +58,18 @@ export const LoginDialog = reatomComponent(() => {
             className="inline-flex h-[35px] w-full flex-1 items-center justify-center rounded px-2.5 text-[15px] leading-none shadow-[0_0_0_1px] outline-none focus:shadow-[0_0_0_2px]"
             id="password"
             type="password"
+            value={password()}
+            onChange={wrap(e => password(e.target.value))}
             required
           />
         </fieldset>
         <div className="flex justify-end">
-          <Button className="w-full ml-[110px]" type="submit" disabled={isLoading} onClick={onClick}>
-            {isLoading ? <UpdateIcon className="animate-spin" /> : 'Login'}
+          <Button className="w-full ml-[110px]" type="submit" disabled={!formIsReady}>
+            {formIsReady ? 'Login' : <UpdateIcon className="animate-spin" />}
           </Button>
+        </div>
+        <div className="flex justify-end min-h-[24px]">
+          <span className="text-red-500">{formErrorMessage}</span>
         </div>
       </div>
     </form>
