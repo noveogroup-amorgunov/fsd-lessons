@@ -19,6 +19,7 @@ pnpm i --frozen-lockfile
 - **[packages/react-with-feature-flags](./packages/react-with-feature-flags)**
 - **[packages/react-with-dialog-manager](./packages/react-with-dialog-manager)**
 - **[packages/react-with-api](./packages/react-with-api)**
+- **[packages/react-with-user-session](./packages/react-with-user-session)**
 
 ## Roadmap
 
@@ -44,6 +45,14 @@ pnpm i --frozen-lockfile
 - [ ] react-with-store-composition-root
 - [ ] react-with-pub-sub-for-shared
 - [ ] react-with-store-di
+
+## Visualise dependencies with dependency-cruiser
+
+```bash
+pnpm add -D dependency-cruiser --filter {PACKAGE}
+pnpm exec depcruise --init  
+pnpm exec depcruise src --include-only "^src" --output-type dot | dot -T svg > dependency-graph.svg
+```
 
 ## License
 
