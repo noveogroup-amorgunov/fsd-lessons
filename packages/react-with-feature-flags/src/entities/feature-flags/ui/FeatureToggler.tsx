@@ -2,14 +2,14 @@ import { GearIcon } from '@radix-ui/react-icons'
 import { wrap } from '@reatom/core'
 import { reatomComponent } from '@reatom/react'
 import { useRef } from 'react'
-import type { FeatureFlagsAtom } from '../model/store'
+import type { FeatureFlags } from '../model/store'
 import { featureFlags } from '../model/store'
 
 export const FeatureToggler = reatomComponent(() => {
   const dialogRef = useRef<HTMLDialogElement>(null)
 
   const toggleFlag = wrap((featureFlag: string) => {
-    featureFlags.toggle(featureFlag as keyof FeatureFlagsAtom)
+    featureFlags.toggle(featureFlag as keyof FeatureFlags)
   })
 
   const onOpen = () => {

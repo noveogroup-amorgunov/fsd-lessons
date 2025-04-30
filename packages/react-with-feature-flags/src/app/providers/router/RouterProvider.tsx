@@ -5,6 +5,7 @@ import { HomePage } from '~/pages/home'
 import { LoginPage } from '~/pages/login'
 import { ProfilePage } from '~/pages/profile'
 import { BaseLayoutProvider as BaseLayout } from '../layout/BaseLayoutProvider.tsx'
+import { DataLoaderProvider } from './dataLoader.tsx'
 
 const routes = [
   { path: '/', component: HomePage, layout: BaseLayout },
@@ -14,10 +15,12 @@ const routes = [
 
 export function RouterProvider() {
   return (
-    <Switch>
-      {routes.map(({ path, component, layout }) => (
-        <Route key={path} path={path} component={component} layout={layout} />
-      ))}
-    </Switch>
+    <DataLoaderProvider>
+      <Switch>
+        {routes.map(({ path, component, layout }) => (
+          <Route key={path} path={path} component={component} layout={layout} />
+        ))}
+      </Switch>
+    </DataLoaderProvider>
   )
 }
