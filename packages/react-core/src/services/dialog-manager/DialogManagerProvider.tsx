@@ -8,7 +8,7 @@ import type { DialogManagerItem } from './types'
 
 const DialogManagerContext = createContext<DialogManagerItem[]>([])
 
-export const DialogManagerProvider = reatomComponent(({ children }: { children: React.ReactNode }) => {
+export const DialogManagerProvider = reatomComponent(({ children }: { children?: React.ReactNode }) => {
   const portalRootElement = document.getElementById('root-dialogs')
 
   if (!portalRootElement) {
@@ -25,6 +25,10 @@ export const DialogManagerProvider = reatomComponent(({ children }: { children: 
               key={Component.name}
               open={open}
               title={props.title}
+              onCloseAutoFocus={event => {
+                event.preventDefault()
+                props.triggerRef?.current?.focus()
+              }}
               onOpenChange={wrap((open) => {
                 if (!open) {
                   dialogs.close(Component)
@@ -43,4 +47,4 @@ export const DialogManagerProvider = reatomComponent(({ children }: { children: 
 
     </DialogManagerContext>
   )
-})
+}, 'DialogManagerProvider')

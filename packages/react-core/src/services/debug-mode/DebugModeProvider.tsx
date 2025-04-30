@@ -15,4 +15,4 @@ export const DebugModeProvider = reatomComponent(({ children }: { children: Reac
   }, [fsdDebugModeIsEnabled])
 
   return children
-})
+}, 'DebugModeProvider')

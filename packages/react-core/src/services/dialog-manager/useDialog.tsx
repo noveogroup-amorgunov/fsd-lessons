@@ -4,6 +4,7 @@ import { dialogs } from './store'
 type BaseDialogProps = {
   onClose?: () => void
   title?: string
+  triggerRef?: React.RefObject<HTMLElement | null>
 }
 
 export function useDialog<T>(Component: React.ComponentType<T>) {
