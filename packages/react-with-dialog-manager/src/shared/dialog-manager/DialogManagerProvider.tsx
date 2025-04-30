@@ -8,7 +8,7 @@ import type { DialogManagerItem } from './types'
 
 const DialogManagerContext = createContext<DialogManagerItem[]>([])
 
-export const DialogManagerProvider = reatomComponent(({ children }: { children: React.ReactNode }) => {
+export const DialogManagerProvider = reatomComponent(({ children }: { children?: React.ReactNode }) => {
   const portalRootElement = document.getElementById('root-dialogs')
 
   if (!portalRootElement) {

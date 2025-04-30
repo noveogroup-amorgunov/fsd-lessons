@@ -17,12 +17,11 @@ createRoot(document.getElementById('root')!).render(
   <reatomContext.Provider value={context.start()}>
     <StrictMode>
       <DebugModeProvider>
-        <DialogManagerProvider>
-          <ThemeProvider>
-            <RouterProvider />
-          </ThemeProvider>
-        </DialogManagerProvider>
+        <ThemeProvider>
+          <RouterProvider />
+        </ThemeProvider>
       </DebugModeProvider>
+      <DialogManagerProvider />
     </StrictMode>
   </reatomContext.Provider>,
 )
