@@ -1,7 +1,7 @@
 import { Button } from '@monorepo/react-core/uikit'
 import { wrap } from '@reatom/core'
 import { reatomComponent } from '@reatom/react'
-import { dialogs } from '~/shared/dialog-manager/store'
+import { dialogs } from '~/shared/dialog-manager'
 import { AlertDialog } from '~/shared/ui/AlertDialog'
 
 export const ProfilePage = reatomComponent(() => {

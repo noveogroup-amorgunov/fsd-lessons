@@ -1,7 +1,11 @@
 import { Button } from '@monorepo/react-core/uikit'
-import { useDialog } from '../dialog-manager'
 
-export function AlertDialog({ message, onClose }: { message: string, onClose?: () => void }) {
+type Props = {
+  message: string
+  onClose?: () => void
+}
+
+export function AlertDialog({ message, onClose }: Props) {
   return (
     <div className="flex flex-col gap-4">
       <p>{message}</p>
@@ -14,13 +18,4 @@ export function AlertDialog({ message, onClose }: { message: string, onClose?: (
       </Button>
     </div>
   )
-}
-
-export function useAlertDialog() {
-  const { show: showAlert, hide: hideAlert } = useDialog(AlertDialog)
-
-  return {
-    showAlert,
-    hideAlert,
-  }
 }

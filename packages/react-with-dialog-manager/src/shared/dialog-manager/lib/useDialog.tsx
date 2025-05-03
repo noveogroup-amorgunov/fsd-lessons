@@ -1,5 +1,5 @@
 import { wrap } from '@reatom/core'
-import { dialogs } from './store'
+import { dialogs } from '../model/store'
 
 type BaseDialogProps = {
   onClose?: () => void
