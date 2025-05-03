@@ -3,7 +3,6 @@ import { ThemeToggler } from '@monorepo/react-core/services/theme'
 import { BaseLayout } from '@monorepo/react-core/ui'
 import { reatomComponent } from '@reatom/react'
 import { Link } from 'wouter'
-import { LoginDialogTrigger } from '~/widgets/LoginDialog'
 
 export const BaseLayoutProvider = reatomComponent(({ children }: { children: React.ReactNode }) => {
   const darkThemeIsEnabled = useFeatureFlag('darkTheme')
@@ -18,7 +17,6 @@ export const BaseLayoutProvider = reatomComponent(({ children }: { children: Rea
         <div className="flex items-center gap-4">
           {darkThemeIsEnabled && <ThemeToggler />}
           <FeatureTogglerV2 />
-          <LoginDialogTrigger />
         </div>
       </header>
     )}
