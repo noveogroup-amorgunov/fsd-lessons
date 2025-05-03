@@ -1,35 +1,8 @@
 import { Button } from '@monorepo/react-core/uikit'
-import { UpdateIcon } from '@radix-ui/react-icons'
-import { reatomComponent } from '@reatom/react'
-import { useEffect, useRef, useState } from 'react'
-import { useAlertDialog } from '~/shared/ui/AlertDialog'
 
-export const LoginDialog = reatomComponent(() => {
-  const { showAlert } = useAlertDialog()
-  const [isLoading, setIsLoading] = useState(false)
-  const timeoutRef = useRef<NodeJS.Timeout | null>(null)
-
-  useEffect(() => {
-    return () => {
-      if (timeoutRef.current) {
-        clearTimeout(timeoutRef.current)
-      }
-    }
-  }, [])
-
-  const onClick = () => {
-    setIsLoading(true)
-    timeoutRef.current = setTimeout(() => {
-      setIsLoading(false)
-      showAlert({
-        title: 'Alert',
-        message: 'Some error',
-      })
-    }, 2000)
-  }
-
+export function LoginForm() {
   return (
-    <form onSubmit={() => {}} data-fsd="widget/LoginDialog">
+    <form onSubmit={() => {}} data-fsd="page/login/LoginForm">
       <div className="flex flex-col gap-1 p-6">
         <fieldset className="mb-[15px] flex items-center gap-5">
           <label
@@ -61,11 +34,9 @@ export const LoginDialog = reatomComponent(() => {
           />
         </fieldset>
         <div className="flex justify-end">
-          <Button className="w-full ml-[110px]" type="submit" disabled={isLoading} onClick={onClick}>
-            {isLoading ? <UpdateIcon className="animate-spin" /> : 'Login'}
-          </Button>
+          <Button type="submit">Login</Button>
         </div>
       </div>
     </form>
   )
-})
+}
