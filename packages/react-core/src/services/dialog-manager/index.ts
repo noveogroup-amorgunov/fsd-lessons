@@ -1,3 +1,3 @@
-export { DialogManagerProvider } from './DialogManagerProvider.tsx'
-export { useDialog } from './useDialog.tsx'
-export { dialogs } from './store'
+export { DialogManagerProvider } from './lib/DialogManagerProvider'
+export { useDialog } from './lib/useDialog'
+export { dialogs } from './model/store'
