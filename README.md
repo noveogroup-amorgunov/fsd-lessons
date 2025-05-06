@@ -21,6 +21,10 @@ pnpm i --frozen-lockfile
 - **[packages/react-with-api](./packages/react-with-api)**
 - **[packages/react-with-user-session](./packages/react-with-user-session)**
 
+Experimental:
+
+- **[packages/custom-infrastructure-services](./packages/custom-infrastructure-services)**
+
 ## Roadmap
 
 - [ ] react-with-redux
@@ -31,7 +35,6 @@ pnpm i --frozen-lockfile
 (custom)
 
 - [ ] custom-fractal-sub-slices
-- [ ] custom-infrastructure-entities-layer
 - [ ] custom-abstarct-widgets-layer
 - [ ] custom-page-modals-layer
 - [ ] custom-domains
