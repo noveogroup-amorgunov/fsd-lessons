@@ -1,19 +1,19 @@
 import { reatomComponent } from '@reatom/react'
-import { pokemonResource } from '../model/store'
+import type { Pokemon } from '../model/types'
 import { PokemonCardStub } from './PokemonCardStub'
 
 type Props = {
-  pokemonId: number
+  data?: Pokemon
+  isLoading?: boolean
+  error?: Error | null
 }
 
 // now PokemonCard has direct connection with pokemonResource
-// idk how correct this is, but it's not that important here (we learn api) 
+// idk how correct this is, but it's not that important here (we learn api)
 export const PokemonCard = reatomComponent((props: Props) => {
-  const data = pokemonResource.data()
-  const ready = pokemonResource.ready()
-  const error = pokemonResource.error()
+  const { data, isLoading, error } = props
 
-  if (!ready) {
+  if (isLoading) {
     return (
       <div data-fsd="entity/pokemon/PokemonCard">
         <PokemonCardStub isLoading />
@@ -30,12 +30,12 @@ export const PokemonCard = reatomComponent((props: Props) => {
   }
 
   return (
-    <div className="inline-flex flex-col gap-4" data-fsd="entity/pokemon/PokemonCard">
+    <div className="inline-flex flex-col gap-4 shrink-0" data-fsd="entity/pokemon/PokemonCard">
       <h2 className="text-2xl font-bold">{data.name}</h2>
       <img className="w-70 h-70" src={data.image} />
       <p>
         id=
-        {props.pokemonId}
+        {data.id}
       </p>
     </div>
   )

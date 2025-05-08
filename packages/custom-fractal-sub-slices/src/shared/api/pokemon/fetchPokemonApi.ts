@@ -4,7 +4,7 @@ function sleep(ms = 500) {
 
 const BASE_URL = 'https://pokeapi.co/api/v2'
 
-export async function fecthPokemonApi<T>(endpoint: string): Promise<T> {
+export async function fetchPokemonApi<T>(endpoint: string): Promise<T> {
   await sleep(2000)
 
   const response = await fetch(BASE_URL + endpoint)
