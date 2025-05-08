@@ -24,6 +24,7 @@ pnpm i --frozen-lockfile
 Experimental:
 
 - **[packages/custom-infrastructure-services](./packages/custom-infrastructure-services)**
+- **[packages/custom-fractal-sub-slices](./packages/custom-fractal-sub-slicess)**
 
 ## Roadmap
 
