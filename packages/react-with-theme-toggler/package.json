@@ -8,7 +8,8 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "depcruise": "depcruise src --include-only '^src' --output-type dot | dot -T svg > dependency-graph.svg"
+    "depcruise": "depcruise src --include-only '^src' --output-type dot | dot -T svg > dependency-graph.svg",
+    "depcruise:full": "FULL_GRAPH=true depcruise src --include-only '^src' --output-type dot | dot -T svg > dependency-graph.full.svg"
   },
   "dependencies": {
     "@monorepo/react-core": "workspace:*",

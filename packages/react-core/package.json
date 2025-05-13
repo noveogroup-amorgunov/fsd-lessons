@@ -13,7 +13,8 @@
     "./services/theme": "./src/services/theme/index.ts",
     "./services/feature-flags": "./src/services/feature-flags/index.ts",
     "./services/debug-mode": "./src/services/debug-mode/index.ts",
-    "./services/dialog-manager": "./src/services/dialog-manager/index.ts"
+    "./services/dialog-manager": "./src/services/dialog-manager/index.ts",
+    "./dependency-cruiser.cjs": "./.dependency-cruiser.cjs"
   },
   "scripts": {
     "build": "tsc",
