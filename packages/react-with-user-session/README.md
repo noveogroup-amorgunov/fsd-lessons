@@ -8,6 +8,12 @@ This example shows how to work with user session (authorization and logout flows
 
 ![Dependency Graph](./dependency-graph.svg)
 
+<details>
+<summary>Full dependency graph</summary>
+
+![Dependency Graph](./dependency-graph.full.svg)
+</details>
+
 ### How to use
 
 Install deps and then run with npm, Yarn or pnpm to startup the example:
