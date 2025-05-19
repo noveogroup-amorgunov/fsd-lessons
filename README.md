@@ -24,7 +24,7 @@ pnpm i --frozen-lockfile
 Experimental:
 
 - **[packages/custom-infrastructure-services](./packages/custom-infrastructure-services)**
-- **[packages/custom-fractal-sub-slices](./packages/custom-fractal-sub-slicess)**
+- **[packages/custom-fractal-sub-slices](./packages/custom-fractal-sub-slices)**
 
 ## Roadmap
 
@@ -49,14 +49,6 @@ Experimental:
 - [ ] react-with-store-composition-root
 - [ ] react-with-pub-sub-for-shared
 - [ ] react-with-store-di
-
-## Visualise dependencies with dependency-cruiser
-
-```bash
-pnpm add -D dependency-cruiser --filter {PACKAGE}
-pnpm exec depcruise --init  
-pnpm exec depcruise src --include-only "^src" --output-type dot | dot -T svg > dependency-graph.svg
-```
 
 ## License
 
