@@ -1,4 +1,4 @@
-import type { PokemonDto } from '~/shared/api'
+import type { PokemonDto } from '~/shared/api/pokemon'
 import type { Pokemon, PokemonId } from '../model/types'
 
 export function mapPokemonDto(dto: PokemonDto): Pokemon {

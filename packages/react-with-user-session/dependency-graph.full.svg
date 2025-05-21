@@ -126,33 +126,33 @@
 </g>
 <g id="clust24" class="cluster">
 <title>cluster_src/shared</title>
-<path fill="#ffffff" stroke="black" stroke-width="2" d="M1162.75,-134C1162.75,-134 1518.75,-134 1518.75,-134 1524.75,-134 1530.75,-140 1530.75,-146 1530.75,-146 1530.75,-532 1530.75,-532 1530.75,-538 1524.75,-544 1518.75,-544 1518.75,-544 1162.75,-544 1162.75,-544 1156.75,-544 1150.75,-538 1150.75,-532 1150.75,-532 1150.75,-146 1150.75,-146 1150.75,-140 1156.75,-134 1162.75,-134"/>
-<text text-anchor="middle" x="1340.75" y="-531.45" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">shared</text>
+<path fill="#ffffff" stroke="black" stroke-width="2" d="M1162.75,-134C1162.75,-134 1518.75,-134 1518.75,-134 1524.75,-134 1530.75,-140 1530.75,-146 1530.75,-146 1530.75,-540 1530.75,-540 1530.75,-546 1524.75,-552 1518.75,-552 1518.75,-552 1162.75,-552 1162.75,-552 1156.75,-552 1150.75,-546 1150.75,-540 1150.75,-540 1150.75,-146 1150.75,-146 1150.75,-140 1156.75,-134 1162.75,-134"/>
+<text text-anchor="middle" x="1340.75" y="-539.45" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">shared</text>
 </g>
 <g id="clust25" class="cluster">
 <title>cluster_src/shared/api</title>
-<path fill="#ffffff" stroke="black" stroke-width="2" d="M1170.75,-202C1170.75,-202 1510.75,-202 1510.75,-202 1516.75,-202 1522.75,-208 1522.75,-214 1522.75,-214 1522.75,-416 1522.75,-416 1522.75,-422 1516.75,-428 1510.75,-428 1510.75,-428 1170.75,-428 1170.75,-428 1164.75,-428 1158.75,-422 1158.75,-416 1158.75,-416 1158.75,-214 1158.75,-214 1158.75,-208 1164.75,-202 1170.75,-202"/>
-<text text-anchor="middle" x="1340.75" y="-415.45" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">api</text>
+<path fill="#ffffff" stroke="black" stroke-width="2" d="M1170.75,-202C1170.75,-202 1510.75,-202 1510.75,-202 1516.75,-202 1522.75,-208 1522.75,-214 1522.75,-214 1522.75,-424 1522.75,-424 1522.75,-430 1516.75,-436 1510.75,-436 1510.75,-436 1170.75,-436 1170.75,-436 1164.75,-436 1158.75,-430 1158.75,-424 1158.75,-424 1158.75,-214 1158.75,-214 1158.75,-208 1164.75,-202 1170.75,-202"/>
+<text text-anchor="middle" x="1340.75" y="-423.45" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">api</text>
 </g>
 <g id="clust26" class="cluster">
 <title>cluster_src/shared/api/base</title>
-<path fill="#ffffff" stroke="black" stroke-width="2" d="M1264.5,-230C1264.5,-230 1502.75,-230 1502.75,-230 1508.75,-230 1514.75,-236 1514.75,-242 1514.75,-242 1514.75,-300 1514.75,-300 1514.75,-306 1508.75,-312 1502.75,-312 1502.75,-312 1264.5,-312 1264.5,-312 1258.5,-312 1252.5,-306 1252.5,-300 1252.5,-300 1252.5,-242 1252.5,-242 1252.5,-236 1258.5,-230 1264.5,-230"/>
-<text text-anchor="middle" x="1383.62" y="-299.45" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">base</text>
+<path fill="#ffffff" stroke="black" stroke-width="2" d="M1178.75,-210C1178.75,-210 1502.75,-210 1502.75,-210 1508.75,-210 1514.75,-216 1514.75,-222 1514.75,-222 1514.75,-308 1514.75,-308 1514.75,-314 1508.75,-320 1502.75,-320 1502.75,-320 1178.75,-320 1178.75,-320 1172.75,-320 1166.75,-314 1166.75,-308 1166.75,-308 1166.75,-222 1166.75,-222 1166.75,-216 1172.75,-210 1178.75,-210"/>
+<text text-anchor="middle" x="1340.75" y="-307.45" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">base</text>
 </g>
 <g id="clust27" class="cluster">
 <title>cluster_src/shared/api/pokemon</title>
-<path fill="#ffffff" stroke="black" stroke-width="2" d="M1248.75,-320C1248.75,-320 1337.75,-320 1337.75,-320 1343.75,-320 1349.75,-326 1349.75,-332 1349.75,-332 1349.75,-390 1349.75,-390 1349.75,-396 1343.75,-402 1337.75,-402 1337.75,-402 1248.75,-402 1248.75,-402 1242.75,-402 1236.75,-396 1236.75,-390 1236.75,-390 1236.75,-332 1236.75,-332 1236.75,-326 1242.75,-320 1248.75,-320"/>
-<text text-anchor="middle" x="1293.25" y="-389.45" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">pokemon</text>
+<path fill="#ffffff" stroke="black" stroke-width="2" d="M1178.75,-328C1178.75,-328 1337.75,-328 1337.75,-328 1343.75,-328 1349.75,-334 1349.75,-340 1349.75,-340 1349.75,-398 1349.75,-398 1349.75,-404 1343.75,-410 1337.75,-410 1337.75,-410 1178.75,-410 1178.75,-410 1172.75,-410 1166.75,-404 1166.75,-398 1166.75,-398 1166.75,-340 1166.75,-340 1166.75,-334 1172.75,-328 1178.75,-328"/>
+<text text-anchor="middle" x="1258.25" y="-397.45" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">pokemon</text>
 </g>
 <g id="clust28" class="cluster">
 <title>cluster_src/shared/lib</title>
-<path fill="#ffffff" stroke="black" stroke-width="2" d="M1456.75,-436C1456.75,-436 1502.75,-436 1502.75,-436 1508.75,-436 1514.75,-442 1514.75,-448 1514.75,-448 1514.75,-506 1514.75,-506 1514.75,-512 1508.75,-518 1502.75,-518 1502.75,-518 1456.75,-518 1456.75,-518 1450.75,-518 1444.75,-512 1444.75,-506 1444.75,-506 1444.75,-448 1444.75,-448 1444.75,-442 1450.75,-436 1456.75,-436"/>
-<text text-anchor="middle" x="1479.75" y="-505.45" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">lib</text>
+<path fill="#ffffff" stroke="black" stroke-width="2" d="M1456.75,-444C1456.75,-444 1502.75,-444 1502.75,-444 1508.75,-444 1514.75,-450 1514.75,-456 1514.75,-456 1514.75,-514 1514.75,-514 1514.75,-520 1508.75,-526 1502.75,-526 1502.75,-526 1456.75,-526 1456.75,-526 1450.75,-526 1444.75,-520 1444.75,-514 1444.75,-514 1444.75,-456 1444.75,-456 1444.75,-450 1450.75,-444 1456.75,-444"/>
+<text text-anchor="middle" x="1479.75" y="-513.45" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">lib</text>
 </g>
 <g id="clust29" class="cluster">
 <title>cluster_src/shared/ui</title>
-<path fill="#ffffff" stroke="black" stroke-width="2" d="M1170.75,-142C1170.75,-142 1216.75,-142 1216.75,-142 1222.75,-142 1228.75,-148 1228.75,-154 1228.75,-154 1228.75,-182 1228.75,-182 1228.75,-188 1222.75,-194 1216.75,-194 1216.75,-194 1170.75,-194 1170.75,-194 1164.75,-194 1158.75,-188 1158.75,-182 1158.75,-182 1158.75,-154 1158.75,-154 1158.75,-148 1164.75,-142 1170.75,-142"/>
-<text text-anchor="middle" x="1193.75" y="-181.45" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">ui</text>
+<path fill="#ffffff" stroke="black" stroke-width="2" d="M1178.75,-142C1178.75,-142 1224.75,-142 1224.75,-142 1230.75,-142 1236.75,-148 1236.75,-154 1236.75,-154 1236.75,-182 1236.75,-182 1236.75,-188 1230.75,-194 1224.75,-194 1224.75,-194 1178.75,-194 1178.75,-194 1172.75,-194 1166.75,-188 1166.75,-182 1166.75,-182 1166.75,-154 1166.75,-154 1166.75,-148 1172.75,-142 1178.75,-142"/>
+<text text-anchor="middle" x="1201.75" y="-181.45" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">ui</text>
 </g>
 <g id="clust30" class="cluster">
 <title>cluster_src/widgets</title>
@@ -334,9 +334,9 @@
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="954.75,-224.34 949.3,-221.07 955.6,-220.23 954.75,-224.34"/>
 </g>
 <!-- src/widgets/LoginDialog/ui/LoginDialogTrigger.tsx -->
-<g id="node38" class="node">
+<g id="node39" class="node">
 <title>src/widgets/LoginDialog/ui/LoginDialogTrigger.tsx</title>
-<g id="a_node38"><a xlink:href="src/widgets/LoginDialog/ui/LoginDialogTrigger.tsx" xlink:title="LoginDialogTrigger.tsx">
+<g id="a_node39"><a xlink:href="src/widgets/LoginDialog/ui/LoginDialogTrigger.tsx" xlink:title="LoginDialogTrigger.tsx">
 <path fill="#bbfeff" stroke="black" d="M919.08,-57.88C919.08,-57.88 821.92,-57.88 821.92,-57.88 818.96,-57.88 816,-54.92 816,-51.96 816,-51.96 816,-46.04 816,-46.04 816,-43.08 818.96,-40.12 821.92,-40.12 821.92,-40.12 919.08,-40.12 919.08,-40.12 922.04,-40.12 925,-43.08 925,-46.04 925,-46.04 925,-51.96 925,-51.96 925,-54.92 922.04,-57.88 919.08,-57.88"/>
 <text text-anchor="start" x="824" y="-45.33" font-family="Helvetica,sans-Serif" font-size="9.00">LoginDialogTrigger.tsx</text>
 </a>
@@ -349,9 +349,9 @@
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="814.88,-56.81 808.7,-55.34 814.45,-52.63 814.88,-56.81"/>
 </g>
 <!-- src/pages/home/ui/Page.tsx -->
-<g id="node25" class="node">
+<g id="node26" class="node">
 <title>src/pages/home/ui/Page.tsx</title>
-<g id="a_node25"><a xlink:href="src/pages/home/ui/Page.tsx" xlink:title="Page.tsx">
+<g id="a_node26"><a xlink:href="src/pages/home/ui/Page.tsx" xlink:title="Page.tsx">
 <path fill="#bbfeff" stroke="black" d="M418.58,-247.88C418.58,-247.88 376.42,-247.88 376.42,-247.88 373.46,-247.88 370.5,-244.92 370.5,-241.96 370.5,-241.96 370.5,-236.04 370.5,-236.04 370.5,-233.08 373.46,-230.12 376.42,-230.12 376.42,-230.12 418.58,-230.12 418.58,-230.12 421.54,-230.12 424.5,-233.08 424.5,-236.04 424.5,-236.04 424.5,-241.96 424.5,-241.96 424.5,-244.92 421.54,-247.88 418.58,-247.88"/>
 <text text-anchor="start" x="379.88" y="-235.32" font-family="Helvetica,sans-Serif" font-size="9.00">Page.tsx</text>
 </a>
@@ -364,9 +364,9 @@
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="369.15,-240.2 363.22,-237.9 369.28,-236 369.15,-240.2"/>
 </g>
 <!-- src/pages/profile/ui/Page.tsx -->
-<g id="node28" class="node">
+<g id="node29" class="node">
 <title>src/pages/profile/ui/Page.tsx</title>
-<g id="a_node28"><a xlink:href="src/pages/profile/ui/Page.tsx" xlink:title="Page.tsx">
+<g id="a_node29"><a xlink:href="src/pages/profile/ui/Page.tsx" xlink:title="Page.tsx">
 <path fill="#bbfeff" stroke="black" d="M418.58,-341.88C418.58,-341.88 376.42,-341.88 376.42,-341.88 373.46,-341.88 370.5,-338.92 370.5,-335.96 370.5,-335.96 370.5,-330.04 370.5,-330.04 370.5,-327.08 373.46,-324.12 376.42,-324.12 376.42,-324.12 418.58,-324.12 418.58,-324.12 421.54,-324.12 424.5,-327.08 424.5,-330.04 424.5,-330.04 424.5,-335.96 424.5,-335.96 424.5,-338.92 421.54,-341.88 418.58,-341.88"/>
 <text text-anchor="start" x="379.88" y="-329.32" font-family="Helvetica,sans-Serif" font-size="9.00">Page.tsx</text>
 </a>
@@ -402,26 +402,26 @@
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M672.18,-599C676.88,-599 681.65,-599 686.39,-599"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="686.39,-601.1 692.39,-599 686.39,-596.9 686.39,-601.1"/>
 </g>
-<!-- src/shared/api/index.ts -->
+<!-- src/shared/api/pokemon/index.ts -->
 <g id="node11" class="node">
-<title>src/shared/api/index.ts</title>
-<g id="a_node11"><a xlink:href="src/shared/api/index.ts" xlink:title="index.ts">
-<path fill="#ddfeff" stroke="black" d="M1214.83,-277.88C1214.83,-277.88 1172.67,-277.88 1172.67,-277.88 1169.71,-277.88 1166.75,-274.92 1166.75,-271.96 1166.75,-271.96 1166.75,-266.04 1166.75,-266.04 1166.75,-263.08 1169.71,-260.12 1172.67,-260.12 1172.67,-260.12 1214.83,-260.12 1214.83,-260.12 1217.79,-260.12 1220.75,-263.08 1220.75,-266.04 1220.75,-266.04 1220.75,-271.96 1220.75,-271.96 1220.75,-274.92 1217.79,-277.88 1214.83,-277.88"/>
-<text text-anchor="start" x="1178" y="-265.32" font-family="Helvetica,sans-Serif" font-size="9.00">index.ts</text>
+<title>src/shared/api/pokemon/index.ts</title>
+<g id="a_node11"><a xlink:href="src/shared/api/pokemon/index.ts" xlink:title="index.ts">
+<path fill="#ddfeff" stroke="black" d="M1222.83,-383.88C1222.83,-383.88 1180.67,-383.88 1180.67,-383.88 1177.71,-383.88 1174.75,-380.92 1174.75,-377.96 1174.75,-377.96 1174.75,-372.04 1174.75,-372.04 1174.75,-369.08 1177.71,-366.12 1180.67,-366.12 1180.67,-366.12 1222.83,-366.12 1222.83,-366.12 1225.79,-366.12 1228.75,-369.08 1228.75,-372.04 1228.75,-372.04 1228.75,-377.96 1228.75,-377.96 1228.75,-380.92 1225.79,-383.88 1222.83,-383.88"/>
+<text text-anchor="start" x="1186" y="-371.32" font-family="Helvetica,sans-Serif" font-size="9.00">index.ts</text>
 </a>
 </g>
 </g>
-<!-- src/entities/pokemon/api/queryPokemonById.ts&#45;&gt;src/shared/api/index.ts -->
+<!-- src/entities/pokemon/api/queryPokemonById.ts&#45;&gt;src/shared/api/pokemon/index.ts -->
 <g id="edge9" class="edge">
-<title>src/entities/pokemon/api/queryPokemonById.ts&#45;&gt;src/shared/api/index.ts</title>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M631.25,-608.17C664.88,-634.91 769.36,-711 869.5,-711 869.5,-711 869.5,-711 999.38,-711 1187.71,-711 1194.39,-369.99 1193.22,-287.03"/>
-<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1195.33,-287.22 1193.11,-281.26 1191.13,-287.3 1195.33,-287.22"/>
+<title>src/entities/pokemon/api/queryPokemonById.ts&#45;&gt;src/shared/api/pokemon/index.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M631.25,-608.17C664.88,-634.91 769.36,-711 869.5,-711 869.5,-711 869.5,-711 999.38,-711 1149.09,-711 1190.23,-462.53 1198.82,-392.93"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1200.86,-393.55 1199.47,-387.34 1196.69,-393.06 1200.86,-393.55"/>
 </g>
-<!-- src/entities/pokemon/lib/mapPokemonDto.ts&#45;&gt;src/shared/api/index.ts -->
+<!-- src/entities/pokemon/lib/mapPokemonDto.ts&#45;&gt;src/shared/api/pokemon/index.ts -->
 <g id="edge14" class="edge">
-<title>src/entities/pokemon/lib/mapPokemonDto.ts&#45;&gt;src/shared/api/index.ts</title>
-<path fill="none" stroke="#000000" stroke-opacity="0.200000" d="M749.99,-608.28C759.21,-623.9 780.24,-654.89 808,-667 907.01,-710.18 956.32,-688.31 1048.5,-632 1098.99,-601.16 1115.16,-590.33 1142.75,-538 1188.53,-451.18 1192.98,-329.25 1193,-285.46"/>
-<polygon fill="none" stroke="#000000" stroke-opacity="0.200000" points="1195.1,-285.72 1192.96,-279.73 1190.9,-285.75 1195.1,-285.72"/>
+<title>src/entities/pokemon/lib/mapPokemonDto.ts&#45;&gt;src/shared/api/pokemon/index.ts</title>
+<path fill="none" stroke="#000000" stroke-opacity="0.200000" d="M749.78,-608.29C758.8,-624.27 779.74,-656.43 808,-669 907.21,-713.13 962.4,-692.17 1048.5,-626 1132.75,-561.25 1180.75,-435.5 1195.67,-391.04"/>
+<polygon fill="none" stroke="#000000" stroke-opacity="0.200000" points="1197.65,-391.74 1197.53,-385.38 1193.66,-390.43 1197.65,-391.74"/>
 </g>
 <!-- src/entities/pokemon/model/types.ts -->
 <g id="node16" class="node">
@@ -438,110 +438,35 @@
 <path fill="none" stroke="#000000" stroke-opacity="0.200000" d="M792.35,-599C806.86,-599 822.51,-599 835.89,-599"/>
 <polygon fill="none" stroke="#000000" stroke-opacity="0.200000" points="835.56,-601.1 841.56,-599 835.56,-596.9 835.56,-601.1"/>
 </g>
-<!-- src/shared/api/base/endpoints.ts -->
-<g id="node29" class="node">
-<title>src/shared/api/base/endpoints.ts</title>
-<g id="a_node29"><a xlink:href="src/shared/api/base/endpoints.ts" xlink:title="endpoints.ts">
-<path fill="#ddfeff" stroke="black" d="M1320.08,-255.88C1320.08,-255.88 1266.42,-255.88 1266.42,-255.88 1263.46,-255.88 1260.5,-252.92 1260.5,-249.96 1260.5,-249.96 1260.5,-244.04 1260.5,-244.04 1260.5,-241.08 1263.46,-238.12 1266.42,-238.12 1266.42,-238.12 1320.08,-238.12 1320.08,-238.12 1323.04,-238.12 1326,-241.08 1326,-244.04 1326,-244.04 1326,-249.96 1326,-249.96 1326,-252.92 1323.04,-255.88 1320.08,-255.88"/>
-<text text-anchor="start" x="1268.5" y="-243.32" font-family="Helvetica,sans-Serif" font-size="9.00">endpoints.ts</text>
-</a>
-</g>
-</g>
-<!-- src/shared/api/index.ts&#45;&gt;src/shared/api/base/endpoints.ts -->
-<g id="edge44" class="edge">
-<title>src/shared/api/index.ts&#45;&gt;src/shared/api/base/endpoints.ts</title>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M1221.13,-263.05C1231.04,-260.81 1242.51,-258.22 1253.31,-255.79"/>
-<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1259.77,-256.48 1253.46,-255.75 1258.85,-252.38 1259.77,-256.48"/>
-</g>
-<!-- src/shared/api/base/fetchBaseApi.ts -->
-<g id="node30" class="node">
-<title>src/shared/api/base/fetchBaseApi.ts</title>
-<g id="a_node30"><a xlink:href="src/shared/api/base/fetchBaseApi.ts" xlink:title="fetchBaseApi.ts">
-<path fill="#ddfeff" stroke="black" d="M1430.83,-255.88C1430.83,-255.88 1363.67,-255.88 1363.67,-255.88 1360.71,-255.88 1357.75,-252.92 1357.75,-249.96 1357.75,-249.96 1357.75,-244.04 1357.75,-244.04 1357.75,-241.08 1360.71,-238.12 1363.67,-238.12 1363.67,-238.12 1430.83,-238.12 1430.83,-238.12 1433.79,-238.12 1436.75,-241.08 1436.75,-244.04 1436.75,-244.04 1436.75,-249.96 1436.75,-249.96 1436.75,-252.92 1433.79,-255.88 1430.83,-255.88"/>
-<text text-anchor="start" x="1365.75" y="-243.32" font-family="Helvetica,sans-Serif" font-size="9.00">fetchBaseApi.ts</text>
-</a>
-</g>
-</g>
-<!-- src/shared/api/index.ts&#45;&gt;src/shared/api/base/fetchBaseApi.ts -->
-<g id="edge46" class="edge">
-<title>src/shared/api/index.ts&#45;&gt;src/shared/api/base/fetchBaseApi.ts</title>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M1221.04,-269.93C1252.06,-270.54 1305.08,-270.06 1349.75,-262 1354.69,-261.11 1359.82,-259.83 1364.8,-258.39"/>
-<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1371.12,-258.65 1364.77,-258.4 1369.89,-254.63 1371.12,-258.65"/>
-</g>
-<!-- src/shared/api/base/types.ts -->
-<g id="node31" class="node">
-<title>src/shared/api/base/types.ts</title>
-<g id="a_node31"><a xlink:href="src/shared/api/base/types.ts" xlink:title="types.ts">
-<path fill="#ddfeff" stroke="black" d="M1418.33,-285.88C1418.33,-285.88 1376.17,-285.88 1376.17,-285.88 1373.21,-285.88 1370.25,-282.92 1370.25,-279.96 1370.25,-279.96 1370.25,-274.04 1370.25,-274.04 1370.25,-271.08 1373.21,-268.12 1376.17,-268.12 1376.17,-268.12 1418.33,-268.12 1418.33,-268.12 1421.29,-268.12 1424.25,-271.08 1424.25,-274.04 1424.25,-274.04 1424.25,-279.96 1424.25,-279.96 1424.25,-282.92 1421.29,-285.88 1418.33,-285.88"/>
-<text text-anchor="start" x="1381.88" y="-273.32" font-family="Helvetica,sans-Serif" font-size="9.00">types.ts</text>
-</a>
-</g>
-</g>
-<!-- src/shared/api/index.ts&#45;&gt;src/shared/api/base/types.ts -->
-<g id="edge48" class="edge">
-<title>src/shared/api/index.ts&#45;&gt;src/shared/api/base/types.ts</title>
-<path fill="none" stroke="#000000" stroke-opacity="0.200000" d="M1220.94,-271.78C1226.17,-272.25 1231.63,-272.69 1236.75,-273 1280.14,-275.61 1330.26,-276.52 1362.57,-276.84"/>
-<polygon fill="none" stroke="#000000" stroke-opacity="0.200000" points="1362.45,-278.94 1368.46,-276.89 1362.48,-274.74 1362.45,-278.94"/>
-</g>
-<!-- src/shared/api/base/errors.ts -->
-<g id="node32" class="node">
-<title>src/shared/api/base/errors.ts</title>
-<g id="a_node32"><a xlink:href="src/shared/api/base/errors.ts" xlink:title="errors.ts">
-<path fill="#ddfeff" stroke="black" d="M1500.83,-255.88C1500.83,-255.88 1458.67,-255.88 1458.67,-255.88 1455.71,-255.88 1452.75,-252.92 1452.75,-249.96 1452.75,-249.96 1452.75,-244.04 1452.75,-244.04 1452.75,-241.08 1455.71,-238.12 1458.67,-238.12 1458.67,-238.12 1500.83,-238.12 1500.83,-238.12 1503.79,-238.12 1506.75,-241.08 1506.75,-244.04 1506.75,-244.04 1506.75,-249.96 1506.75,-249.96 1506.75,-252.92 1503.79,-255.88 1500.83,-255.88"/>
-<text text-anchor="start" x="1463.25" y="-243.32" font-family="Helvetica,sans-Serif" font-size="9.00">errors.ts</text>
-</a>
-</g>
-</g>
-<!-- src/shared/api/index.ts&#45;&gt;src/shared/api/base/errors.ts -->
-<g id="edge45" class="edge">
-<title>src/shared/api/index.ts&#45;&gt;src/shared/api/base/errors.ts</title>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M1198.83,-259.77C1204.98,-247.17 1217.94,-225.1 1236.75,-216 1316.78,-177.31 1352.32,-188.21 1436.75,-216 1447.04,-219.39 1456.88,-226.37 1464.44,-232.85"/>
-<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1467.6,-238.53 1464.56,-232.95 1470.42,-235.41 1467.6,-238.53"/>
-</g>
-<!-- src/shared/api/base/store.ts -->
-<g id="node33" class="node">
-<title>src/shared/api/base/store.ts</title>
-<g id="a_node33"><a xlink:href="src/shared/api/base/store.ts" xlink:title="store.ts">
-<path fill="#ddfeff" stroke="black" d="M1500.83,-285.88C1500.83,-285.88 1458.67,-285.88 1458.67,-285.88 1455.71,-285.88 1452.75,-282.92 1452.75,-279.96 1452.75,-279.96 1452.75,-274.04 1452.75,-274.04 1452.75,-271.08 1455.71,-268.12 1458.67,-268.12 1458.67,-268.12 1500.83,-268.12 1500.83,-268.12 1503.79,-268.12 1506.75,-271.08 1506.75,-274.04 1506.75,-274.04 1506.75,-279.96 1506.75,-279.96 1506.75,-282.92 1503.79,-285.88 1500.83,-285.88"/>
-<text text-anchor="start" x="1465.12" y="-273.32" font-family="Helvetica,sans-Serif" font-size="9.00">store.ts</text>
-</a>
-</g>
-</g>
-<!-- src/shared/api/index.ts&#45;&gt;src/shared/api/base/store.ts -->
-<g id="edge47" class="edge">
-<title>src/shared/api/index.ts&#45;&gt;src/shared/api/base/store.ts</title>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M1201.62,-259.95C1209.12,-250.9 1222.02,-237.56 1236.75,-232 1278.33,-216.3 1401.51,-204.92 1436.75,-232 1447.69,-240.41 1435.78,-251.52 1444.75,-262 1445.43,-262.8 1446.16,-263.55 1446.94,-264.27"/>
-<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1450.49,-269.54 1446.94,-264.27 1453,-266.18 1450.49,-269.54"/>
-</g>
 <!-- src/shared/api/pokemon/fecthPokemonApi.ts -->
-<g id="node35" class="node">
+<g id="node36" class="node">
 <title>src/shared/api/pokemon/fecthPokemonApi.ts</title>
-<g id="a_node35"><a xlink:href="src/shared/api/pokemon/fecthPokemonApi.ts" xlink:title="fecthPokemonApi.ts">
-<path fill="#ddfeff" stroke="black" d="M1335.83,-345.88C1335.83,-345.88 1250.67,-345.88 1250.67,-345.88 1247.71,-345.88 1244.75,-342.92 1244.75,-339.96 1244.75,-339.96 1244.75,-334.04 1244.75,-334.04 1244.75,-331.08 1247.71,-328.12 1250.67,-328.12 1250.67,-328.12 1335.83,-328.12 1335.83,-328.12 1338.79,-328.12 1341.75,-331.08 1341.75,-334.04 1341.75,-334.04 1341.75,-339.96 1341.75,-339.96 1341.75,-342.92 1338.79,-345.88 1335.83,-345.88"/>
-<text text-anchor="start" x="1252.75" y="-333.32" font-family="Helvetica,sans-Serif" font-size="9.00">fecthPokemonApi.ts</text>
+<g id="a_node36"><a xlink:href="src/shared/api/pokemon/fecthPokemonApi.ts" xlink:title="fecthPokemonApi.ts">
+<path fill="#ddfeff" stroke="black" d="M1335.83,-383.88C1335.83,-383.88 1250.67,-383.88 1250.67,-383.88 1247.71,-383.88 1244.75,-380.92 1244.75,-377.96 1244.75,-377.96 1244.75,-372.04 1244.75,-372.04 1244.75,-369.08 1247.71,-366.12 1250.67,-366.12 1250.67,-366.12 1335.83,-366.12 1335.83,-366.12 1338.79,-366.12 1341.75,-369.08 1341.75,-372.04 1341.75,-372.04 1341.75,-377.96 1341.75,-377.96 1341.75,-380.92 1338.79,-383.88 1335.83,-383.88"/>
+<text text-anchor="start" x="1252.75" y="-371.32" font-family="Helvetica,sans-Serif" font-size="9.00">fecthPokemonApi.ts</text>
 </a>
 </g>
 </g>
-<!-- src/shared/api/index.ts&#45;&gt;src/shared/api/pokemon/fecthPokemonApi.ts -->
+<!-- src/shared/api/pokemon/index.ts&#45;&gt;src/shared/api/pokemon/fecthPokemonApi.ts -->
 <g id="edge49" class="edge">
-<title>src/shared/api/index.ts&#45;&gt;src/shared/api/pokemon/fecthPokemonApi.ts</title>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M1199.07,-277.97C1205.5,-290.33 1218.8,-312.38 1236.75,-324 1237.2,-324.29 1237.66,-324.58 1238.12,-324.86"/>
-<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1242.55,-329.54 1238.2,-324.9 1244.49,-325.82 1242.55,-329.54"/>
+<title>src/shared/api/pokemon/index.ts&#45;&gt;src/shared/api/pokemon/fecthPokemonApi.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M1229.12,-375C1231.85,-375 1234.68,-375 1237.58,-375"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1243.41,-377.1 1237.41,-375 1243.41,-372.9 1243.41,-377.1"/>
 </g>
 <!-- src/shared/api/pokemon/types.ts -->
-<g id="node36" class="node">
+<g id="node37" class="node">
 <title>src/shared/api/pokemon/types.ts</title>
-<g id="a_node36"><a xlink:href="src/shared/api/pokemon/types.ts" xlink:title="types.ts">
-<path fill="#ddfeff" stroke="black" d="M1314.33,-375.88C1314.33,-375.88 1272.17,-375.88 1272.17,-375.88 1269.21,-375.88 1266.25,-372.92 1266.25,-369.96 1266.25,-369.96 1266.25,-364.04 1266.25,-364.04 1266.25,-361.08 1269.21,-358.12 1272.17,-358.12 1272.17,-358.12 1314.33,-358.12 1314.33,-358.12 1317.29,-358.12 1320.25,-361.08 1320.25,-364.04 1320.25,-364.04 1320.25,-369.96 1320.25,-369.96 1320.25,-372.92 1317.29,-375.88 1314.33,-375.88"/>
-<text text-anchor="start" x="1277.88" y="-363.32" font-family="Helvetica,sans-Serif" font-size="9.00">types.ts</text>
+<g id="a_node37"><a xlink:href="src/shared/api/pokemon/types.ts" xlink:title="types.ts">
+<path fill="#ddfeff" stroke="black" d="M1314.33,-353.88C1314.33,-353.88 1272.17,-353.88 1272.17,-353.88 1269.21,-353.88 1266.25,-350.92 1266.25,-347.96 1266.25,-347.96 1266.25,-342.04 1266.25,-342.04 1266.25,-339.08 1269.21,-336.12 1272.17,-336.12 1272.17,-336.12 1314.33,-336.12 1314.33,-336.12 1317.29,-336.12 1320.25,-339.08 1320.25,-342.04 1320.25,-342.04 1320.25,-347.96 1320.25,-347.96 1320.25,-350.92 1317.29,-353.88 1314.33,-353.88"/>
+<text text-anchor="start" x="1277.88" y="-341.32" font-family="Helvetica,sans-Serif" font-size="9.00">types.ts</text>
 </a>
 </g>
 </g>
-<!-- src/shared/api/index.ts&#45;&gt;src/shared/api/pokemon/types.ts -->
+<!-- src/shared/api/pokemon/index.ts&#45;&gt;src/shared/api/pokemon/types.ts -->
 <g id="edge50" class="edge">
-<title>src/shared/api/index.ts&#45;&gt;src/shared/api/pokemon/types.ts</title>
-<path fill="none" stroke="#000000" stroke-opacity="0.200000" d="M1196.8,-278.3C1201.1,-295.53 1212.7,-332.43 1236.75,-352 1243.03,-357.11 1250.91,-360.49 1258.74,-362.72"/>
-<polygon fill="none" stroke="#000000" stroke-opacity="0.200000" points="1258.07,-364.72 1264.4,-364.1 1259.07,-360.64 1258.07,-364.72"/>
+<title>src/shared/api/pokemon/index.ts&#45;&gt;src/shared/api/pokemon/types.ts</title>
+<path fill="none" stroke="#000000" stroke-opacity="0.200000" d="M1228.46,-365.65C1233.83,-363.74 1239.47,-361.78 1244.75,-360 1249.38,-358.44 1254.27,-356.85 1259.09,-355.3"/>
+<polygon fill="none" stroke="#000000" stroke-opacity="0.200000" points="1259.54,-357.36 1264.62,-353.54 1258.26,-353.36 1259.54,-357.36"/>
 </g>
 <!-- src/entities/pokemon/index.ts -->
 <g id="node12" class="node">
@@ -624,17 +549,26 @@
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M788.46,-479C794.64,-479 801.09,-479 807.53,-479"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="807.26,-481.1 813.26,-479 807.26,-476.9 807.26,-481.1"/>
 </g>
-<!-- src/entities/session/model/actions.ts&#45;&gt;src/shared/api/index.ts -->
-<g id="edge21" class="edge">
-<title>src/entities/session/model/actions.ts&#45;&gt;src/shared/api/index.ts</title>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M1117.12,-240.3C1129.97,-245.17 1145.89,-251.21 1159.8,-256.5"/>
-<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1158.98,-258.43 1165.33,-258.59 1160.47,-254.5 1158.98,-258.43"/>
+<!-- src/shared/api/base/index.ts -->
+<g id="node21" class="node">
+<title>src/shared/api/base/index.ts</title>
+<g id="a_node21"><a xlink:href="src/shared/api/base/index.ts" xlink:title="index.ts">
+<path fill="#ddfeff" stroke="black" d="M1222.83,-241.88C1222.83,-241.88 1180.67,-241.88 1180.67,-241.88 1177.71,-241.88 1174.75,-238.92 1174.75,-235.96 1174.75,-235.96 1174.75,-230.04 1174.75,-230.04 1174.75,-227.08 1177.71,-224.12 1180.67,-224.12 1180.67,-224.12 1222.83,-224.12 1222.83,-224.12 1225.79,-224.12 1228.75,-227.08 1228.75,-230.04 1228.75,-230.04 1228.75,-235.96 1228.75,-235.96 1228.75,-238.92 1225.79,-241.88 1222.83,-241.88"/>
+<text text-anchor="start" x="1186" y="-229.32" font-family="Helvetica,sans-Serif" font-size="9.00">index.ts</text>
+</a>
 </g>
-<!-- src/entities/session/model/store.ts&#45;&gt;src/shared/api/index.ts -->
+</g>
+<!-- src/entities/session/model/actions.ts&#45;&gt;src/shared/api/base/index.ts -->
+<g id="edge21" class="edge">
+<title>src/entities/session/model/actions.ts&#45;&gt;src/shared/api/base/index.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M1119.08,-231.49C1133.19,-231.75 1150.73,-232.07 1165.93,-232.36"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1165.51,-234.45 1171.55,-232.46 1165.59,-230.25 1165.51,-234.45"/>
+</g>
+<!-- src/entities/session/model/store.ts&#45;&gt;src/shared/api/base/index.ts -->
 <g id="edge22" class="edge">
-<title>src/entities/session/model/store.ts&#45;&gt;src/shared/api/index.ts</title>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M1118.97,-206.11C1126.98,-208.37 1135.56,-211.57 1142.75,-216 1158.12,-225.48 1171.89,-240.86 1181.07,-252.62"/>
-<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1179.31,-253.77 1184.59,-257.31 1182.67,-251.25 1179.31,-253.77"/>
+<title>src/entities/session/model/store.ts&#45;&gt;src/shared/api/base/index.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M1119.08,-208.83C1133.19,-213 1150.73,-218.2 1165.93,-222.7"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1165.32,-224.7 1171.67,-224.39 1166.51,-220.68 1165.32,-224.7"/>
 </g>
 <!-- src/entities/session/ui/LogoutButton.tsx&#45;&gt;src/entities/session/model/actions.ts -->
 <g id="edge23" class="edge">
@@ -642,19 +576,94 @@
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M1040.99,-231C1045.81,-231 1050.68,-231 1055.39,-231"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1055.19,-233.1 1061.19,-231 1055.19,-228.9 1055.19,-233.1"/>
 </g>
+<!-- src/shared/api/base/endpoints.ts -->
+<g id="node30" class="node">
+<title>src/shared/api/base/endpoints.ts</title>
+<g id="a_node30"><a xlink:href="src/shared/api/base/endpoints.ts" xlink:title="endpoints.ts">
+<path fill="#ddfeff" stroke="black" d="M1320.08,-263.88C1320.08,-263.88 1266.42,-263.88 1266.42,-263.88 1263.46,-263.88 1260.5,-260.92 1260.5,-257.96 1260.5,-257.96 1260.5,-252.04 1260.5,-252.04 1260.5,-249.08 1263.46,-246.12 1266.42,-246.12 1266.42,-246.12 1320.08,-246.12 1320.08,-246.12 1323.04,-246.12 1326,-249.08 1326,-252.04 1326,-252.04 1326,-257.96 1326,-257.96 1326,-260.92 1323.04,-263.88 1320.08,-263.88"/>
+<text text-anchor="start" x="1268.5" y="-251.32" font-family="Helvetica,sans-Serif" font-size="9.00">endpoints.ts</text>
+</a>
+</g>
+</g>
+<!-- src/shared/api/base/index.ts&#45;&gt;src/shared/api/base/endpoints.ts -->
+<g id="edge44" class="edge">
+<title>src/shared/api/base/index.ts&#45;&gt;src/shared/api/base/endpoints.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M1229.12,-239.48C1236.69,-241.34 1245.12,-243.41 1253.28,-245.42"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1258.58,-248.89 1253.25,-245.41 1259.58,-244.81 1258.58,-248.89"/>
+</g>
+<!-- src/shared/api/base/fetchBaseApi.ts -->
+<g id="node31" class="node">
+<title>src/shared/api/base/fetchBaseApi.ts</title>
+<g id="a_node31"><a xlink:href="src/shared/api/base/fetchBaseApi.ts" xlink:title="fetchBaseApi.ts">
+<path fill="#ddfeff" stroke="black" d="M1430.83,-249.88C1430.83,-249.88 1363.67,-249.88 1363.67,-249.88 1360.71,-249.88 1357.75,-246.92 1357.75,-243.96 1357.75,-243.96 1357.75,-238.04 1357.75,-238.04 1357.75,-235.08 1360.71,-232.12 1363.67,-232.12 1363.67,-232.12 1430.83,-232.12 1430.83,-232.12 1433.79,-232.12 1436.75,-235.08 1436.75,-238.04 1436.75,-238.04 1436.75,-243.96 1436.75,-243.96 1436.75,-246.92 1433.79,-249.88 1430.83,-249.88"/>
+<text text-anchor="start" x="1365.75" y="-237.32" font-family="Helvetica,sans-Serif" font-size="9.00">fetchBaseApi.ts</text>
+</a>
+</g>
+</g>
+<!-- src/shared/api/base/index.ts&#45;&gt;src/shared/api/base/fetchBaseApi.ts -->
+<g id="edge46" class="edge">
+<title>src/shared/api/base/index.ts&#45;&gt;src/shared/api/base/fetchBaseApi.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M1229.25,-234.1C1260.43,-235.38 1312.73,-237.55 1350.51,-239.11"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1356.3,-241.45 1350.39,-239.1 1356.47,-237.25 1356.3,-241.45"/>
+</g>
+<!-- src/shared/api/base/types.ts -->
+<g id="node32" class="node">
+<title>src/shared/api/base/types.ts</title>
+<g id="a_node32"><a xlink:href="src/shared/api/base/types.ts" xlink:title="types.ts">
+<path fill="#ddfeff" stroke="black" d="M1418.33,-279.88C1418.33,-279.88 1376.17,-279.88 1376.17,-279.88 1373.21,-279.88 1370.25,-276.92 1370.25,-273.96 1370.25,-273.96 1370.25,-268.04 1370.25,-268.04 1370.25,-265.08 1373.21,-262.12 1376.17,-262.12 1376.17,-262.12 1418.33,-262.12 1418.33,-262.12 1421.29,-262.12 1424.25,-265.08 1424.25,-268.04 1424.25,-268.04 1424.25,-273.96 1424.25,-273.96 1424.25,-276.92 1421.29,-279.88 1418.33,-279.88"/>
+<text text-anchor="start" x="1381.88" y="-267.32" font-family="Helvetica,sans-Serif" font-size="9.00">types.ts</text>
+</a>
+</g>
+</g>
+<!-- src/shared/api/base/index.ts&#45;&gt;src/shared/api/base/types.ts -->
+<g id="edge48" class="edge">
+<title>src/shared/api/base/index.ts&#45;&gt;src/shared/api/base/types.ts</title>
+<path fill="none" stroke="#000000" stroke-opacity="0.200000" d="M1209.91,-242.37C1217.45,-251.39 1230.22,-264.46 1244.75,-270 1283.09,-284.62 1330.96,-281.8 1362.51,-277.36"/>
+<polygon fill="none" stroke="#000000" stroke-opacity="0.200000" points="1362.65,-279.46 1368.27,-276.49 1362.02,-275.3 1362.65,-279.46"/>
+</g>
+<!-- src/shared/api/base/errors.ts -->
+<g id="node33" class="node">
+<title>src/shared/api/base/errors.ts</title>
+<g id="a_node33"><a xlink:href="src/shared/api/base/errors.ts" xlink:title="errors.ts">
+<path fill="#ddfeff" stroke="black" d="M1500.83,-282.88C1500.83,-282.88 1458.67,-282.88 1458.67,-282.88 1455.71,-282.88 1452.75,-279.92 1452.75,-276.96 1452.75,-276.96 1452.75,-271.04 1452.75,-271.04 1452.75,-268.08 1455.71,-265.12 1458.67,-265.12 1458.67,-265.12 1500.83,-265.12 1500.83,-265.12 1503.79,-265.12 1506.75,-268.08 1506.75,-271.04 1506.75,-271.04 1506.75,-276.96 1506.75,-276.96 1506.75,-279.92 1503.79,-282.88 1500.83,-282.88"/>
+<text text-anchor="start" x="1463.25" y="-270.32" font-family="Helvetica,sans-Serif" font-size="9.00">errors.ts</text>
+</a>
+</g>
+</g>
+<!-- src/shared/api/base/index.ts&#45;&gt;src/shared/api/base/errors.ts -->
+<g id="edge45" class="edge">
+<title>src/shared/api/base/index.ts&#45;&gt;src/shared/api/base/errors.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M1207.93,-242.01C1214.78,-252.97 1227.97,-270.97 1244.75,-279 1321.77,-315.86 1352.19,-297.84 1436.75,-286 1439.62,-285.6 1442.57,-285.05 1445.52,-284.4"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1451.85,-285.03 1445.53,-284.4 1450.86,-280.95 1451.85,-285.03"/>
+</g>
+<!-- src/shared/api/base/store.ts -->
+<g id="node34" class="node">
+<title>src/shared/api/base/store.ts</title>
+<g id="a_node34"><a xlink:href="src/shared/api/base/store.ts" xlink:title="store.ts">
+<path fill="#ddfeff" stroke="black" d="M1500.83,-242.88C1500.83,-242.88 1458.67,-242.88 1458.67,-242.88 1455.71,-242.88 1452.75,-239.92 1452.75,-236.96 1452.75,-236.96 1452.75,-231.04 1452.75,-231.04 1452.75,-228.08 1455.71,-225.12 1458.67,-225.12 1458.67,-225.12 1500.83,-225.12 1500.83,-225.12 1503.79,-225.12 1506.75,-228.08 1506.75,-231.04 1506.75,-231.04 1506.75,-236.96 1506.75,-236.96 1506.75,-239.92 1503.79,-242.88 1500.83,-242.88"/>
+<text text-anchor="start" x="1465.12" y="-230.32" font-family="Helvetica,sans-Serif" font-size="9.00">store.ts</text>
+</a>
+</g>
+</g>
+<!-- src/shared/api/base/index.ts&#45;&gt;src/shared/api/base/store.ts -->
+<g id="edge47" class="edge">
+<title>src/shared/api/base/index.ts&#45;&gt;src/shared/api/base/store.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M1229.14,-230.09C1272.54,-225.77 1361.69,-218.92 1436.75,-226 1439.66,-226.27 1442.67,-226.65 1445.68,-227.1"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1451.32,-230.15 1445.74,-227.11 1452,-226.01 1451.32,-230.15"/>
+</g>
 <!-- src/entities/user/index.ts -->
-<g id="node21" class="node">
+<g id="node22" class="node">
 <title>src/entities/user/index.ts</title>
-<g id="a_node21"><a xlink:href="src/entities/user/index.ts" xlink:title="index.ts">
+<g id="a_node22"><a xlink:href="src/entities/user/index.ts" xlink:title="index.ts">
 <path fill="#ddfeff" stroke="black" d="M640.21,-337.88C640.21,-337.88 598.04,-337.88 598.04,-337.88 595.08,-337.88 592.12,-334.92 592.12,-331.96 592.12,-331.96 592.12,-326.04 592.12,-326.04 592.12,-323.08 595.08,-320.12 598.04,-320.12 598.04,-320.12 640.21,-320.12 640.21,-320.12 643.17,-320.12 646.12,-323.08 646.12,-326.04 646.12,-326.04 646.12,-331.96 646.12,-331.96 646.12,-334.92 643.17,-337.88 640.21,-337.88"/>
 <text text-anchor="start" x="603.38" y="-325.32" font-family="Helvetica,sans-Serif" font-size="9.00">index.ts</text>
 </a>
 </g>
 </g>
 <!-- src/entities/user/model/store.ts -->
-<g id="node22" class="node">
+<g id="node23" class="node">
 <title>src/entities/user/model/store.ts</title>
-<g id="a_node22"><a xlink:href="src/entities/user/model/store.ts" xlink:title="store.ts">
+<g id="a_node23"><a xlink:href="src/entities/user/model/store.ts" xlink:title="store.ts">
 <path fill="#ddfeff" stroke="black" d="M764.96,-333.88C764.96,-333.88 722.79,-333.88 722.79,-333.88 719.83,-333.88 716.88,-330.92 716.88,-327.96 716.88,-327.96 716.88,-322.04 716.88,-322.04 716.88,-319.08 719.83,-316.12 722.79,-316.12 722.79,-316.12 764.96,-316.12 764.96,-316.12 767.92,-316.12 770.88,-319.08 770.88,-322.04 770.88,-322.04 770.88,-327.96 770.88,-327.96 770.88,-330.92 767.92,-333.88 764.96,-333.88"/>
 <text text-anchor="start" x="729.25" y="-321.32" font-family="Helvetica,sans-Serif" font-size="9.00">store.ts</text>
 </a>
@@ -672,16 +681,16 @@
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M754.24,-315.98C775.44,-295.57 827.3,-245.63 853.62,-220.29"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="854.98,-221.9 857.84,-216.22 852.06,-218.87 854.98,-221.9"/>
 </g>
-<!-- src/entities/user/model/store.ts&#45;&gt;src/shared/api/index.ts -->
+<!-- src/entities/user/model/store.ts&#45;&gt;src/shared/api/base/index.ts -->
 <g id="edge30" class="edge">
-<title>src/entities/user/model/store.ts&#45;&gt;src/shared/api/index.ts</title>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M766.01,-334.35C778.28,-341 792.71,-351.2 800,-365 807.06,-378.37 797.15,-626.47 808,-637 850.17,-677.95 888.24,-664.39 940.25,-637 1088.93,-558.7 1166.91,-348.97 1187.28,-286.68"/>
-<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1189.21,-287.53 1189.04,-281.17 1185.21,-286.25 1189.21,-287.53"/>
+<title>src/entities/user/model/store.ts&#45;&gt;src/shared/api/base/index.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M766.01,-334.35C778.28,-341 792.71,-351.2 800,-365 807.06,-378.37 797.15,-626.47 808,-637 850.17,-677.95 888.64,-665.13 940.25,-637 981.26,-614.65 1149.76,-322.43 1191.41,-249.44"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1193,-250.88 1194.15,-244.63 1189.35,-248.81 1193,-250.88"/>
 </g>
 <!-- src/entities/user/lib/mapUserDto.ts -->
-<g id="node23" class="node">
+<g id="node24" class="node">
 <title>src/entities/user/lib/mapUserDto.ts</title>
-<g id="a_node23"><a xlink:href="src/entities/user/lib/mapUserDto.ts" xlink:title="mapUserDto.ts">
+<g id="a_node24"><a xlink:href="src/entities/user/lib/mapUserDto.ts" xlink:title="mapUserDto.ts">
 <path fill="#ddfeff" stroke="black" d="M776.33,-393.88C776.33,-393.88 711.42,-393.88 711.42,-393.88 708.46,-393.88 705.5,-390.92 705.5,-387.96 705.5,-387.96 705.5,-382.04 705.5,-382.04 705.5,-379.08 708.46,-376.12 711.42,-376.12 711.42,-376.12 776.33,-376.12 776.33,-376.12 779.29,-376.12 782.25,-379.08 782.25,-382.04 782.25,-382.04 782.25,-387.96 782.25,-387.96 782.25,-390.92 779.29,-393.88 776.33,-393.88"/>
 <text text-anchor="start" x="713.5" y="-381.32" font-family="Helvetica,sans-Serif" font-size="9.00">mapUserDto.ts</text>
 </a>
@@ -694,9 +703,9 @@
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="741.78,-366.88 743.88,-372.88 745.98,-366.88 741.78,-366.88"/>
 </g>
 <!-- src/entities/user/model/types.ts -->
-<g id="node24" class="node">
+<g id="node25" class="node">
 <title>src/entities/user/model/types.ts</title>
-<g id="a_node24"><a xlink:href="src/entities/user/model/types.ts" xlink:title="types.ts">
+<g id="a_node25"><a xlink:href="src/entities/user/model/types.ts" xlink:title="types.ts">
 <path fill="#ddfeff" stroke="black" d="M891.58,-333.88C891.58,-333.88 849.42,-333.88 849.42,-333.88 846.46,-333.88 843.5,-330.92 843.5,-327.96 843.5,-327.96 843.5,-322.04 843.5,-322.04 843.5,-319.08 846.46,-316.12 849.42,-316.12 849.42,-316.12 891.58,-316.12 891.58,-316.12 894.54,-316.12 897.5,-319.08 897.5,-322.04 897.5,-322.04 897.5,-327.96 897.5,-327.96 897.5,-330.92 894.54,-333.88 891.58,-333.88"/>
 <text text-anchor="start" x="855.12" y="-321.32" font-family="Helvetica,sans-Serif" font-size="9.00">types.ts</text>
 </a>
@@ -708,11 +717,11 @@
 <path fill="none" stroke="#000000" stroke-opacity="0.200000" d="M771.3,-325C790.06,-325 815.39,-325 835.63,-325"/>
 <polygon fill="none" stroke="#000000" stroke-opacity="0.200000" points="835.59,-327.1 841.59,-325 835.59,-322.9 835.59,-327.1"/>
 </g>
-<!-- src/entities/user/lib/mapUserDto.ts&#45;&gt;src/shared/api/index.ts -->
+<!-- src/entities/user/lib/mapUserDto.ts&#45;&gt;src/shared/api/base/index.ts -->
 <g id="edge26" class="edge">
-<title>src/entities/user/lib/mapUserDto.ts&#45;&gt;src/shared/api/index.ts</title>
-<path fill="none" stroke="#000000" stroke-opacity="0.200000" d="M754.46,-393.94C767.54,-406.85 790.47,-432.12 800,-459 807.21,-479.33 792.43,-638.06 808,-653 850.41,-693.7 883.34,-667.72 940.25,-653 1057.4,-622.7 1090.09,-579.95 1142.75,-471 1173.88,-406.59 1186.77,-320.96 1191.01,-285.48"/>
-<polygon fill="none" stroke="#000000" stroke-opacity="0.200000" points="1193.06,-286.02 1191.65,-279.82 1188.89,-285.55 1193.06,-286.02"/>
+<title>src/entities/user/lib/mapUserDto.ts&#45;&gt;src/shared/api/base/index.ts</title>
+<path fill="none" stroke="#000000" stroke-opacity="0.200000" d="M754.46,-393.94C767.54,-406.85 790.47,-432.12 800,-459 807.24,-479.44 792.36,-638.98 808,-654 850.41,-694.7 885.03,-674.13 940.25,-654 1073.3,-605.51 1098.04,-542.37 1142.75,-408 1154.45,-372.84 1139.91,-360.44 1150.75,-325 1159.61,-296.05 1178.1,-265.83 1189.95,-248.24"/>
+<polygon fill="none" stroke="#000000" stroke-opacity="0.200000" points="1191.46,-249.75 1193.12,-243.61 1188,-247.37 1191.46,-249.75"/>
 </g>
 <!-- src/entities/user/lib/mapUserDto.ts&#45;&gt;src/entities/user/model/types.ts -->
 <g id="edge25" class="edge">
@@ -727,9 +736,9 @@
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="582.39,-471.91 588.75,-471.75 583.68,-467.91 582.39,-471.91"/>
 </g>
 <!-- src/pages/home/model/store.ts -->
-<g id="node26" class="node">
+<g id="node27" class="node">
 <title>src/pages/home/model/store.ts</title>
-<g id="a_node26"><a xlink:href="src/pages/home/model/store.ts" xlink:title="store.ts">
+<g id="a_node27"><a xlink:href="src/pages/home/model/store.ts" xlink:title="store.ts">
 <path fill="#ddfeff" stroke="black" d="M504.58,-247.88C504.58,-247.88 462.42,-247.88 462.42,-247.88 459.46,-247.88 456.5,-244.92 456.5,-241.96 456.5,-241.96 456.5,-236.04 456.5,-236.04 456.5,-233.08 459.46,-230.12 462.42,-230.12 462.42,-230.12 504.58,-230.12 504.58,-230.12 507.54,-230.12 510.5,-233.08 510.5,-236.04 510.5,-236.04 510.5,-241.96 510.5,-241.96 510.5,-244.92 507.54,-247.88 504.58,-247.88"/>
 <text text-anchor="start" x="468.88" y="-235.32" font-family="Helvetica,sans-Serif" font-size="9.00">store.ts</text>
 </a>
@@ -742,19 +751,19 @@
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="447.08,-241.1 453.08,-239 447.08,-236.9 447.08,-241.1"/>
 </g>
 <!-- src/shared/ui/Input.tsx -->
-<g id="node27" class="node">
+<g id="node28" class="node">
 <title>src/shared/ui/Input.tsx</title>
-<g id="a_node27"><a xlink:href="src/shared/ui/Input.tsx" xlink:title="Input.tsx">
-<path fill="#bbfeff" stroke="black" d="M1214.83,-167.88C1214.83,-167.88 1172.67,-167.88 1172.67,-167.88 1169.71,-167.88 1166.75,-164.92 1166.75,-161.96 1166.75,-161.96 1166.75,-156.04 1166.75,-156.04 1166.75,-153.08 1169.71,-150.12 1172.67,-150.12 1172.67,-150.12 1214.83,-150.12 1214.83,-150.12 1217.79,-150.12 1220.75,-153.08 1220.75,-156.04 1220.75,-156.04 1220.75,-161.96 1220.75,-161.96 1220.75,-164.92 1217.79,-167.88 1214.83,-167.88"/>
-<text text-anchor="start" x="1176.88" y="-155.32" font-family="Helvetica,sans-Serif" font-size="9.00">Input.tsx</text>
+<g id="a_node28"><a xlink:href="src/shared/ui/Input.tsx" xlink:title="Input.tsx">
+<path fill="#bbfeff" stroke="black" d="M1222.83,-167.88C1222.83,-167.88 1180.67,-167.88 1180.67,-167.88 1177.71,-167.88 1174.75,-164.92 1174.75,-161.96 1174.75,-161.96 1174.75,-156.04 1174.75,-156.04 1174.75,-153.08 1177.71,-150.12 1180.67,-150.12 1180.67,-150.12 1222.83,-150.12 1222.83,-150.12 1225.79,-150.12 1228.75,-153.08 1228.75,-156.04 1228.75,-156.04 1228.75,-161.96 1228.75,-161.96 1228.75,-164.92 1225.79,-167.88 1222.83,-167.88"/>
+<text text-anchor="start" x="1184.88" y="-155.32" font-family="Helvetica,sans-Serif" font-size="9.00">Input.tsx</text>
 </a>
 </g>
 </g>
 <!-- src/pages/home/ui/Page.tsx&#45;&gt;src/shared/ui/Input.tsx -->
 <g id="edge35" class="edge">
 <title>src/pages/home/ui/Page.tsx&#45;&gt;src/shared/ui/Input.tsx</title>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M404.72,-229.73C413.16,-217.97 429.39,-198.01 448.5,-188 516.26,-152.53 541.64,-159 618.12,-159 618.12,-159 618.12,-159 999.38,-159 1054.7,-159 1118.92,-159 1157.67,-159"/>
-<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1157.45,-161.1 1163.45,-159 1157.45,-156.9 1157.45,-161.1"/>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M404.72,-229.73C413.16,-217.97 429.39,-198.01 448.5,-188 516.26,-152.53 541.64,-159 618.12,-159 618.12,-159 618.12,-159 999.38,-159 1057.59,-159 1125.28,-159 1165.48,-159"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1165.33,-161.1 1171.33,-159 1165.33,-156.9 1165.33,-161.1"/>
 </g>
 <!-- src/pages/home/model/store.ts&#45;&gt;src/entities/pokemon/index.ts -->
 <g id="edge32" class="edge">
@@ -777,55 +786,55 @@
 <!-- src/shared/api/base/endpoints.ts&#45;&gt;src/shared/api/base/fetchBaseApi.ts -->
 <g id="edge39" class="edge">
 <title>src/shared/api/base/endpoints.ts&#45;&gt;src/shared/api/base/fetchBaseApi.ts</title>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M1326.24,-247C1333.38,-247 1341.1,-247 1348.72,-247"/>
-<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1348.54,-249.1 1354.54,-247 1348.54,-244.9 1348.54,-249.1"/>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M1326.24,-250.61C1333.38,-249.63 1341.1,-248.57 1348.72,-247.52"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1348.91,-249.62 1354.57,-246.72 1348.34,-245.46 1348.91,-249.62"/>
 </g>
 <!-- src/shared/api/base/endpoints.ts&#45;&gt;src/shared/api/base/types.ts -->
 <g id="edge40" class="edge">
 <title>src/shared/api/base/endpoints.ts&#45;&gt;src/shared/api/base/types.ts</title>
-<path fill="none" stroke="#000000" stroke-opacity="0.200000" d="M1326.41,-253.84C1334.11,-255.67 1342.26,-257.76 1349.75,-260 1354.96,-261.56 1360.43,-263.38 1365.72,-265.25"/>
-<polygon fill="none" stroke="#000000" stroke-opacity="0.200000" points="1365,-267.22 1371.36,-267.28 1366.43,-263.27 1365,-267.22"/>
+<path fill="none" stroke="#000000" stroke-opacity="0.200000" d="M1326.24,-260.02C1337.86,-261.84 1351,-263.9 1362.74,-265.74"/>
+<polygon fill="none" stroke="#000000" stroke-opacity="0.200000" points="1362.09,-267.77 1368.35,-266.62 1362.74,-263.62 1362.09,-267.77"/>
 </g>
 <!-- src/shared/api/base/fetchBaseApi.ts&#45;&gt;src/shared/api/base/errors.ts -->
 <g id="edge41" class="edge">
 <title>src/shared/api/base/fetchBaseApi.ts&#45;&gt;src/shared/api/base/errors.ts</title>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M1437.09,-247C1439.18,-247 1441.27,-247 1443.35,-247"/>
-<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1443.25,-249.1 1449.25,-247 1443.25,-244.9 1443.25,-249.1"/>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M1422.33,-250.24C1427.12,-252.12 1432.1,-254.1 1436.75,-256 1440.87,-257.68 1445.19,-259.49 1449.44,-261.29"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1448.31,-263.09 1454.66,-263.52 1449.96,-259.23 1448.31,-263.09"/>
 </g>
 <!-- src/shared/api/base/fetchBaseApi.ts&#45;&gt;src/shared/api/base/store.ts -->
 <g id="edge42" class="edge">
 <title>src/shared/api/base/fetchBaseApi.ts&#45;&gt;src/shared/api/base/store.ts</title>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M1423.28,-256.33C1430.25,-258.92 1437.93,-261.79 1445.29,-264.53"/>
-<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1444.54,-266.49 1450.9,-266.62 1446.01,-262.56 1444.54,-266.49"/>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M1437.09,-237.62C1439.18,-237.44 1441.27,-237.26 1443.35,-237.08"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1443.47,-239.18 1449.26,-236.56 1443.1,-234.99 1443.47,-239.18"/>
 </g>
 <!-- src/shared/lib/wait.ts -->
-<g id="node34" class="node">
+<g id="node35" class="node">
 <title>src/shared/lib/wait.ts</title>
-<g id="a_node34"><a xlink:href="src/shared/lib/wait.ts" xlink:title="wait.ts">
-<path fill="#ddfeff" stroke="black" d="M1500.83,-461.88C1500.83,-461.88 1458.67,-461.88 1458.67,-461.88 1455.71,-461.88 1452.75,-458.92 1452.75,-455.96 1452.75,-455.96 1452.75,-450.04 1452.75,-450.04 1452.75,-447.08 1455.71,-444.12 1458.67,-444.12 1458.67,-444.12 1500.83,-444.12 1500.83,-444.12 1503.79,-444.12 1506.75,-447.08 1506.75,-450.04 1506.75,-450.04 1506.75,-455.96 1506.75,-455.96 1506.75,-458.92 1503.79,-461.88 1500.83,-461.88"/>
-<text text-anchor="start" x="1467" y="-449.32" font-family="Helvetica,sans-Serif" font-size="9.00">wait.ts</text>
+<g id="a_node35"><a xlink:href="src/shared/lib/wait.ts" xlink:title="wait.ts">
+<path fill="#ddfeff" stroke="black" d="M1500.83,-469.88C1500.83,-469.88 1458.67,-469.88 1458.67,-469.88 1455.71,-469.88 1452.75,-466.92 1452.75,-463.96 1452.75,-463.96 1452.75,-458.04 1452.75,-458.04 1452.75,-455.08 1455.71,-452.12 1458.67,-452.12 1458.67,-452.12 1500.83,-452.12 1500.83,-452.12 1503.79,-452.12 1506.75,-455.08 1506.75,-458.04 1506.75,-458.04 1506.75,-463.96 1506.75,-463.96 1506.75,-466.92 1503.79,-469.88 1500.83,-469.88"/>
+<text text-anchor="start" x="1467" y="-457.32" font-family="Helvetica,sans-Serif" font-size="9.00">wait.ts</text>
 </a>
 </g>
 </g>
 <!-- src/shared/api/base/fetchBaseApi.ts&#45;&gt;src/shared/lib/wait.ts -->
 <g id="edge43" class="edge">
 <title>src/shared/api/base/fetchBaseApi.ts&#45;&gt;src/shared/lib/wait.ts</title>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M1430.4,-256.23C1432.79,-257.85 1434.96,-259.76 1436.75,-262 1451.63,-280.61 1440.12,-291.63 1444.75,-315 1453.38,-358.54 1466.67,-409.04 1473.81,-435.21"/>
-<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1471.73,-435.55 1475.34,-440.78 1475.78,-434.44 1471.73,-435.55"/>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M1430.47,-250.17C1432.84,-251.81 1434.99,-253.73 1436.75,-256 1445.93,-267.85 1442.06,-308.25 1444.75,-323 1452.71,-366.67 1466.27,-417.12 1473.63,-443.25"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1471.55,-443.61 1475.21,-448.8 1475.59,-442.46 1471.55,-443.61"/>
 </g>
 <!-- src/shared/lib/app.d.ts -->
-<g id="node37" class="node">
+<g id="node38" class="node">
 <title>src/shared/lib/app.d.ts</title>
-<g id="a_node37"><a xlink:href="src/shared/lib/app.d.ts" xlink:title="app.d.ts">
-<path fill="#ccffcc" stroke="black" d="M1500.83,-491.88C1500.83,-491.88 1458.67,-491.88 1458.67,-491.88 1455.71,-491.88 1452.75,-488.92 1452.75,-485.96 1452.75,-485.96 1452.75,-480.04 1452.75,-480.04 1452.75,-477.08 1455.71,-474.12 1458.67,-474.12 1458.67,-474.12 1500.83,-474.12 1500.83,-474.12 1503.79,-474.12 1506.75,-477.08 1506.75,-480.04 1506.75,-480.04 1506.75,-485.96 1506.75,-485.96 1506.75,-488.92 1503.79,-491.88 1500.83,-491.88"/>
-<text text-anchor="start" x="1463.62" y="-479.32" font-family="Helvetica,sans-Serif" font-size="9.00">app.d.ts</text>
+<g id="a_node38"><a xlink:href="src/shared/lib/app.d.ts" xlink:title="app.d.ts">
+<path fill="#ccffcc" stroke="black" d="M1500.83,-499.88C1500.83,-499.88 1458.67,-499.88 1458.67,-499.88 1455.71,-499.88 1452.75,-496.92 1452.75,-493.96 1452.75,-493.96 1452.75,-488.04 1452.75,-488.04 1452.75,-485.08 1455.71,-482.12 1458.67,-482.12 1458.67,-482.12 1500.83,-482.12 1500.83,-482.12 1503.79,-482.12 1506.75,-485.08 1506.75,-488.04 1506.75,-488.04 1506.75,-493.96 1506.75,-493.96 1506.75,-496.92 1503.79,-499.88 1500.83,-499.88"/>
+<text text-anchor="start" x="1463.62" y="-487.32" font-family="Helvetica,sans-Serif" font-size="9.00">app.d.ts</text>
 </a>
 </g>
 </g>
 <!-- src/widgets/LoginDialog/ui/LoginDialog.tsx -->
-<g id="node40" class="node">
+<g id="node41" class="node">
 <title>src/widgets/LoginDialog/ui/LoginDialog.tsx</title>
-<g id="a_node40"><a xlink:href="src/widgets/LoginDialog/ui/LoginDialog.tsx" xlink:title="LoginDialog.tsx">
+<g id="a_node41"><a xlink:href="src/widgets/LoginDialog/ui/LoginDialog.tsx" xlink:title="LoginDialog.tsx">
 <path fill="#bbfeff" stroke="black" d="M1032.33,-57.88C1032.33,-57.88 964.42,-57.88 964.42,-57.88 961.46,-57.88 958.5,-54.92 958.5,-51.96 958.5,-51.96 958.5,-46.04 958.5,-46.04 958.5,-43.08 961.46,-40.12 964.42,-40.12 964.42,-40.12 1032.33,-40.12 1032.33,-40.12 1035.29,-40.12 1038.25,-43.08 1038.25,-46.04 1038.25,-46.04 1038.25,-51.96 1038.25,-51.96 1038.25,-54.92 1035.29,-57.88 1032.33,-57.88"/>
 <text text-anchor="start" x="966.5" y="-45.33" font-family="Helvetica,sans-Serif" font-size="9.00">LoginDialog.tsx</text>
 </a>
@@ -838,25 +847,25 @@
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="949.25,-51.1 955.25,-49 949.25,-46.9 949.25,-51.1"/>
 </g>
 <!-- src/widgets/LoginDialog/model/store.ts -->
-<g id="node39" class="node">
+<g id="node40" class="node">
 <title>src/widgets/LoginDialog/model/store.ts</title>
-<g id="a_node39"><a xlink:href="src/widgets/LoginDialog/model/store.ts" xlink:title="store.ts">
+<g id="a_node40"><a xlink:href="src/widgets/LoginDialog/model/store.ts" xlink:title="store.ts">
 <path fill="#ddfeff" stroke="black" d="M1112.71,-57.88C1112.71,-57.88 1070.54,-57.88 1070.54,-57.88 1067.58,-57.88 1064.62,-54.92 1064.62,-51.96 1064.62,-51.96 1064.62,-46.04 1064.62,-46.04 1064.62,-43.08 1067.58,-40.12 1070.54,-40.12 1070.54,-40.12 1112.71,-40.12 1112.71,-40.12 1115.67,-40.12 1118.62,-43.08 1118.62,-46.04 1118.62,-46.04 1118.62,-51.96 1118.62,-51.96 1118.62,-54.92 1115.67,-57.88 1112.71,-57.88"/>
 <text text-anchor="start" x="1077" y="-45.33" font-family="Helvetica,sans-Serif" font-size="9.00">store.ts</text>
 </a>
 </g>
 </g>
-<!-- src/widgets/LoginDialog/model/store.ts&#45;&gt;src/shared/api/index.ts -->
+<!-- src/widgets/LoginDialog/model/store.ts&#45;&gt;src/shared/api/base/index.ts -->
 <g id="edge52" class="edge">
-<title>src/widgets/LoginDialog/model/store.ts&#45;&gt;src/shared/api/index.ts</title>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M1102.36,-58.21C1114.2,-70.08 1133.72,-91.96 1142.75,-115 1156.11,-149.09 1139.49,-162.16 1150.75,-197 1157.44,-217.68 1170.73,-238.88 1180.58,-252.87"/>
-<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1178.64,-253.77 1183.86,-257.39 1182.04,-251.3 1178.64,-253.77"/>
+<title>src/widgets/LoginDialog/model/store.ts&#45;&gt;src/shared/api/base/index.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M1102.36,-58.21C1114.2,-70.08 1133.72,-91.96 1142.75,-115 1156.11,-149.09 1132.49,-165.26 1150.75,-197 1155.99,-206.11 1164.57,-213.53 1173.15,-219.21"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1171.82,-220.85 1178.03,-222.18 1174,-217.27 1171.82,-220.85"/>
 </g>
-<!-- src/widgets/LoginDialog/ui/LoginDialog.tsx&#45;&gt;src/shared/api/index.ts -->
+<!-- src/widgets/LoginDialog/ui/LoginDialog.tsx&#45;&gt;src/shared/api/base/index.ts -->
 <g id="edge54" class="edge">
-<title>src/widgets/LoginDialog/ui/LoginDialog.tsx&#45;&gt;src/shared/api/index.ts</title>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M1012.32,-58.32C1039.37,-78.28 1102.67,-127.74 1142.75,-181 1147.53,-187.35 1146.97,-190.01 1150.75,-197 1161.11,-216.15 1173.8,-237.66 1182.5,-252.15"/>
-<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1180.66,-253.15 1185.55,-257.2 1184.25,-250.98 1180.66,-253.15"/>
+<title>src/widgets/LoginDialog/ui/LoginDialog.tsx&#45;&gt;src/shared/api/base/index.ts</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M1012.32,-58.32C1039.37,-78.28 1102.67,-127.74 1142.75,-181 1147.53,-187.35 1145.6,-190.95 1150.75,-197 1157.94,-205.44 1167.5,-212.95 1176.34,-218.89"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1175.1,-220.6 1181.29,-222.07 1177.37,-217.06 1175.1,-220.6"/>
 </g>
 <!-- src/widgets/LoginDialog/ui/LoginDialog.tsx&#45;&gt;src/widgets/LoginDialog/model/store.ts -->
 <g id="edge53" class="edge">

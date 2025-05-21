@@ -1,5 +1,5 @@
 import { action, atom, parseAtoms, withAsyncData, wrap } from '@reatom/core'
-import { baseApi, baseApiAccessToken } from '~/shared/api'
+import { baseApi, baseApiAccessToken } from '~/shared/api/base'
 
 export const email = atom<Email>('', 'email')
 
