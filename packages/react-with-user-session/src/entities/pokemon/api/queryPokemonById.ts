@@ -1,5 +1,5 @@
-import type { PokemonDto } from '~/shared/api'
-import { fecthPokemonApi } from '~/shared/api'
+import type { PokemonDto } from '~/shared/api/pokemon'
+import { fecthPokemonApi } from '~/shared/api/pokemon'
 import { mapPokemonDto } from '../lib/mapPokemonDto'
 
 // Usually this function is provided by data-fetching library (Apollo GraphQL, RTKQ, TanStack Query)

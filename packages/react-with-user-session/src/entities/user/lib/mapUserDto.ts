@@ -1,4 +1,4 @@
-import type { UserDto } from '~/shared/api'
+import type { UserDto } from '~/shared/api/base'
 import type { User, UserId } from '../model/types'
 
 export function mapUser(dto: UserDto): User {

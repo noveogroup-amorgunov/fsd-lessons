@@ -1,6 +1,6 @@
 import { atom, computed, withAsyncData, wrap } from '@reatom/core'
 import { isAuthorized } from '~/entities/session'
-import { baseApi } from '~/shared/api'
+import { baseApi } from '~/shared/api/base'
 import { mapUser } from '../lib/mapUserDto'
 import type { User, UserId } from '../model/types'
 
