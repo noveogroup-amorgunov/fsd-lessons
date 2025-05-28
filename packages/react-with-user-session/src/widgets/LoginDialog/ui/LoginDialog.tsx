@@ -2,7 +2,7 @@ import { Button } from '@monorepo/react-core/uikit'
 import { UpdateIcon } from '@radix-ui/react-icons'
 import { wrap } from '@reatom/core'
 import { reatomComponent } from '@reatom/react'
-import { ApiError } from '~/shared/api'
+import { ApiError } from '~/shared/api/base'
 import { email, password, submitForm } from '../model/store'
 
 export const LoginDialog = reatomComponent(({ onClose }: { onClose: () => void }) => {
