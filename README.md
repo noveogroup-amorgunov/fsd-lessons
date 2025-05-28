@@ -6,11 +6,11 @@ A collection of examples that show how you can build applications with [Feature-
 
 Examples are build on _react_, _vite_, _typescript_, _tailwind_, _wouter_, _redux toolkit_, _redux toolkit query_ (_rtkq_), _reatom@v1000_, _radix ui_ and so on.
 
-## Install
+## YouTube playlist
 
-```bash
-pnpm i --frozen-lockfile
-```
+See [video lessons on YouTube](https://www.youtube.com/playlist?list=PLKQoMoMLZQN5p0OChSvHFHauEvnTFugbO) (on Russsian).
+
+![](./youtube-playlist-preview@dark.jpg#gh-dark-mode-only)![](./youtube-playlist-preview.jpg#gh-light-mode-only)
 
 ## List
 
@@ -49,6 +49,12 @@ Experimental:
 - [ ] react-with-store-composition-root
 - [ ] react-with-pub-sub-for-shared
 - [ ] react-with-store-di
+
+## Install
+
+```bash
+pnpm i --frozen-lockfile
+```
 
 ## License
 
