@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:theme-toggler": "pnpm --filter react-with-theme-toggler dev",
+    "dev:layouts": "pnpm dev --filter react-with-layouts"
   },
   "keywords": [],
   "author": "",
