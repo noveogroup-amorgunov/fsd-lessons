@@ -8,5 +8,11 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "pnpm": {
+    "overrides": {
+      "@reatom/core": "1000.0.0-alpha.11",
+      "@reatom/react": "1000.0.0-alpha.4"
+    }
+  }
 }

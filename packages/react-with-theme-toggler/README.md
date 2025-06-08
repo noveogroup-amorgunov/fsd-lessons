@@ -2,7 +2,17 @@
 
 This example shows how to work with theme toggler.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/noveogroup-amorgunov/fsd-lessons/tree/main/packages/react-with-theme-toggler)
+# Preview with StackBlitz
+
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/noveogroup-amorgunov/fsd-lessons?file=packages%2Freact-with-layouts%2FREADME.md)
+
+```bash
+# please wait while dependencies are installed...
+
+cd packages/react-with-layouts/
+
+pnpm dev
+```
 
 ### Dependency Graph
 
