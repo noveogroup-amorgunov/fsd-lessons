@@ -2,7 +2,7 @@
 
 This example shows how to work with dialog (modal) manager.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/noveogroup-amorgunov/fsd-lessons/tree/main/packages/react-with-dialog-manager)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/noveogroup-amorgunov/fsd-lessons?file=packages%2Freact-with-dialog-manager%2FREADME.md&startScript=dev:react-with-dialog-manager)
 
 ### Dependency Graph
 

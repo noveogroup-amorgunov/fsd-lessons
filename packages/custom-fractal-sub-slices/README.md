@@ -4,7 +4,7 @@
 
 This example shows how to work with sub slices (or fractal architecture).
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/noveogroup-amorgunov/fsd-lessons/tree/main/packages/custom-fractal-sub-slices)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/noveogroup-amorgunov/fsd-lessons?file=packages%2Fcustom-fractal-sub-slices%2FREADME.md&startScript=dev:custom-fractal-sub-slices)
 
 ### Dependency Graph
 

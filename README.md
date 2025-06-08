@@ -8,7 +8,7 @@ Examples are build on _react_, _vite_, _typescript_, _tailwind_, _wouter_, _redu
 
 ## YouTube playlist
 
-See [video lessons on YouTube](https://www.youtube.com/playlist?list=PLKQoMoMLZQN5p0OChSvHFHauEvnTFugbO) (on Russsian).
+See [video lessons on YouTube](https://www.youtube.com/playlist?list=PLKQoMoMLZQN5p0OChSvHFHauEvnTFugbO) (on Russian).
 
 ![](./youtube-playlist-preview@dark.jpg#gh-dark-mode-only)![](./youtube-playlist-preview.jpg#gh-light-mode-only)
 
@@ -52,8 +52,11 @@ Experimental:
 
 ## Install
 
+> [!WARNING]  
+> `@reatom/react` and `@reatom/core` versions are fixed in [./package.json] overrides.
+
 ```bash
-pnpm i --frozen-lockfile
+pnpm i
 ```
 
 ## License

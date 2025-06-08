@@ -2,7 +2,7 @@
 
 This example shows how to work with feature flags.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/noveogroup-amorgunov/fsd-lessons/tree/main/packages/react-with-feature-flags)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/noveogroup-amorgunov/fsd-lessons?file=packages%2Freact-with-feature-flags%2FREADME.md&startScript=dev:react-with-feature-flags)
 
 ### Dependency Graph
 

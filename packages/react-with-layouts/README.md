@@ -2,7 +2,7 @@
 
 This example shows how to work with page layout (or layouts).
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/noveogroup-amorgunov/fsd-lessons/tree/main/packages/react-with-layouts)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/noveogroup-amorgunov/fsd-lessons?file=packages%2Freact-with-layouts%2FREADME.md&startScript=dev:react-with-layouts)
 
 ### Dependency Graph
 

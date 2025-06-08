@@ -4,7 +4,7 @@
 
 This example shows how to work with infrastructure services.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/noveogroup-amorgunov/fsd-lessons/tree/main/packages/react-with-dialog-manager)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/noveogroup-amorgunov/fsd-lessons?file=packages%2Fcustom-infrastructure-services%2FREADME.md&startScript=dev:custom-infrastructure-services)
 
 ### Dependency Graph
 
