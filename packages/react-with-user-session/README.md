@@ -2,7 +2,7 @@
 
 This example shows how to work with user session (authorization and logout flows).
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/noveogroup-amorgunov/fsd-lessons/tree/main/packages/react-with-user-session)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/noveogroup-amorgunov/fsd-lessons?file=packages%2Freact-with-user-session%2FREADME.md&startScript=dev:react-with-user-session)
 
 ### Dependency Graph
 

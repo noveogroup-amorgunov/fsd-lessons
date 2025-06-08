@@ -5,8 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev:theme-toggler": "pnpm --filter react-with-theme-toggler dev",
-    "dev:layouts": "pnpm dev --filter react-with-layouts"
+    "dev:react-with-layouts": "pnpm --filter react-with-layouts dev",
+    "dev:react-with-theme-toggler": "pnpm --filter react-with-theme-toggler dev",
+    "dev:react-with-feature-flags": "pnpm --filter react-with-feature-flags dev",
+    "dev:react-with-dialog-manager": "pnpm --filter react-with-dialog-manager dev",
+    "dev:react-with-api": "pnpm --filter react-with-api dev",
+    "dev:react-with-user-session": "pnpm --filter react-with-user-session dev",
+    "dev:custom-infrastructure-services": "pnpm --filter custom-infrastructure-services dev",
+    "dev:custom-fractal-sub-slices": "pnpm --filter custom-fractal-sub-slices dev"
   },
   "keywords": [],
   "author": "",
