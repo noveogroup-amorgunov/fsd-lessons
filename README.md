@@ -53,7 +53,7 @@ Experimental:
 ## Install
 
 > [!WARNING]  
-> `@reatom/react` and `@reatom/core` versions are fixed in [./package.json] overrides.
+> `@reatom/react` and `@reatom/core` versions are fixed in [package.json](./package.json#L20-L25) overrides.
 
 ```bash
 pnpm i
