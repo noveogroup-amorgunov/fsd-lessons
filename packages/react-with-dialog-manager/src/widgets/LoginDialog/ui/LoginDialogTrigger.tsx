@@ -7,7 +7,7 @@ export const LoginDialogTrigger = reatomComponent(() => {
   const { show } = useDialog(LoginForm)
 
   return (
-    <button onClick={() => show({ title: 'Login' })}>
+    <button type="button" onClick={() => show({ title: 'Login' })}>
       <EnterIcon width={24} height={24} />
     </button>
   )

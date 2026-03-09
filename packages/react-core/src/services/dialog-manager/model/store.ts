@@ -1,12 +1,15 @@
-import { atom } from '@reatom/core'
+import { action, atom } from '@reatom/core'
 import type { ComponentType } from 'react'
 import type { DialogManagerItem } from './types'
 
-export const dialogs = atom<DialogManagerItem[]>([], 'dialogs').actions(target => ({
-  open: <T>(Component: ComponentType<T>, props: T) => target((state) => {
-    return [...state, { Component, props }]
-  }),
-  close: (Component: ComponentType<any>) => target((state) => {
-    return state.filter(dialog => dialog.Component !== Component)
-  }),
-}))
+export const dialogs = atom<DialogManagerItem[]>([], 'dialogs')
+  .extend((target) => {
+    return {
+      close: action ((Component: ComponentType<any>) => {
+        target.set(state => state.filter(dialog => dialog.Component !== Component))
+      }, `${target.name}.close`),
+      open: action(<T>(Component: ComponentType<T>, props: T) => {
+        target.set(state => [...state, { Component, props }])
+      }, `${target.name}.open`),
+    }
+  })

@@ -1,5 +1,5 @@
-import { useEffect } from 'react'
 import { reatomComponent } from '@reatom/react'
+import { useEffect } from 'react'
 import { useFeatureFlag } from '../feature-flags'
 
 export const DebugModeProvider = reatomComponent(({ children }: { children: React.ReactNode }) => {

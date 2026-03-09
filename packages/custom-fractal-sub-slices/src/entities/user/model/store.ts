@@ -1,4 +1,4 @@
-import { atom, computed, withAsyncData, wrap } from '@reatom/core'
+import { atom, computed, withAsyncData } from '@reatom/core'
 import { isAuthorized } from '~/entities/session'
 import { baseApi } from '~/shared/api/base'
 import { mapUser } from '../lib/mapUserDto'
@@ -11,13 +11,13 @@ export const user = atom<User | null>(null, 'user')
 export const userResource = computed(async () => {
   // FIXME: Clear user on logout
   if (!isAuthorized()) {
-    userId(null)
-    user(null)
+    userId.set(null)
+    user.set(null)
 
     return
   }
 
-  const response = await wrap(baseApi.me())
+  const response = await baseApi.me()
 
-  user(mapUser(response))
-}, 'userResource').extend(withAsyncData(null))
+  user.set(mapUser(response))
+}, 'userResource').extend(withAsyncData({ initState: null }))

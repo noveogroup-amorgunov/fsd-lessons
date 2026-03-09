@@ -1,19 +1,19 @@
 import { MoonIcon, SunIcon } from '@radix-ui/react-icons'
-import { wrap } from '@reatom/core'
 import { reatomComponent } from '@reatom/react'
+import { useCallback } from 'react'
 import { theme } from '../model/store'
 
 export const ThemeToggler = reatomComponent(() => {
   const currentTheme = theme()
   const Icon = currentTheme === 'light' ? SunIcon : MoonIcon
 
-  const changeTheme = wrap(() => {
-    theme(currentTheme === 'light' ? 'dark' : 'light')
-  })
+  const changeTheme = useCallback(() => {
+    theme.set(currentTheme === 'light' ? 'dark' : 'light')
+  }, [currentTheme])
 
   return (
     <div data-fsd="entity/theme-toggler" className="inline-flex">
-      <button onClick={changeTheme}>
+      <button type="button" onClick={changeTheme}>
         <Icon width={24} height={24} />
       </button>
     </div>

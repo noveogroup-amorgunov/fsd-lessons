@@ -1,5 +1,4 @@
 import { GearIcon } from '@radix-ui/react-icons'
-import { wrap } from '@reatom/core'
 import { reatomComponent } from '@reatom/react'
 import { useRef } from 'react'
 import type { FeatureFlagsAtom } from '../model/store'
@@ -8,9 +7,9 @@ import { featureFlags } from '../model/store'
 export const FeatureToggler = reatomComponent(() => {
   const dialogRef = useRef<HTMLDialogElement>(null)
 
-  const toggleFlag = wrap((featureFlag: string) => {
+  const toggleFlag = (featureFlag: string) => {
     featureFlags.toggle(featureFlag as keyof FeatureFlagsAtom)
-  })
+  }
 
   const onOpen = () => {
     dialogRef.current?.showModal()
@@ -32,7 +31,7 @@ export const FeatureToggler = reatomComponent(() => {
 
   return (
     <div className="flex">
-      <button onClick={onOpen} className="cursor-pointer">
+      <button type="button" onClick={onOpen} className="cursor-pointer">
         <GearIcon width={24} height={24} />
       </button>
       {/* FIXME: move dialog to external service */}

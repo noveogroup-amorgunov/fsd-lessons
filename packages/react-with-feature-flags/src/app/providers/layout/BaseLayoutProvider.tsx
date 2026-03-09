@@ -1,6 +1,5 @@
 import { theme, ThemeToggler } from '@monorepo/react-core/services/theme'
 import { BaseLayout } from '@monorepo/react-core/ui'
-import { wrap } from '@reatom/core'
 import { reatomComponent } from '@reatom/react'
 import { useEffect } from 'react'
 import { Link } from 'wouter'
@@ -22,12 +21,11 @@ export const BaseLayoutProvider = reatomComponent(({ children }: { children: Rea
     }
   }, [fsdDebugModeIsEnabled])
 
-  // FIXME: move to ThemeProvider
-  useEffect(wrap(() => {
+  useEffect(() => {
     if (!darkThemeIsEnabled && currentTheme === 'dark') {
-      theme('light')
+      theme.set('light')
     }
-  }), [darkThemeIsEnabled])
+  }, [darkThemeIsEnabled])
 
   return (
     <BaseLayout headerSlot={(

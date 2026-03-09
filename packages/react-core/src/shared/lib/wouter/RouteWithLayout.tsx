@@ -1,6 +1,6 @@
-import { Route, RouteProps } from 'wouter'
-import { RouteComponentProps } from 'wouter'
-import { ComponentType } from 'react'
+import type { ComponentType } from 'react'
+import { Route } from 'wouter'
+import type { RouteComponentProps, RouteProps } from 'wouter'
 
 type Props = {
   layout: ComponentType<{ children: React.ReactNode }>

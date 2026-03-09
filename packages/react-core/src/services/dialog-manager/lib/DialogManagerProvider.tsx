@@ -1,7 +1,6 @@
-import { wrap } from '@reatom/core'
 import { reatomComponent } from '@reatom/react'
-import { dialogs } from '../model/store'
 import { Dialog as DialogWrapper } from '../../../shared/ui/Dialog'
+import { dialogs } from '../model/store'
 
 export const DialogManagerProvider = reatomComponent(() => {
   return dialogs().map(({ Component, props }, index) => (
@@ -9,19 +8,19 @@ export const DialogManagerProvider = reatomComponent(() => {
       key={Component.displayName ?? Component.name ?? index}
       open={true}
       title={props.title}
-      onCloseAutoFocus={event => {
+      onCloseAutoFocus={(event) => {
         event.preventDefault()
         props.triggerRef?.current?.focus()
       }}
-      onOpenChange={wrap((open) => {
+      onOpenChange={(open) => {
         if (!open) {
           dialogs.close(Component)
         }
-      })}
+      }}
     >
       <Component
         {...props}
-        onClose={wrap(() => dialogs.close(Component))}
+        onClose={() => dialogs.close(Component)}
       />
     </DialogWrapper>
   ))

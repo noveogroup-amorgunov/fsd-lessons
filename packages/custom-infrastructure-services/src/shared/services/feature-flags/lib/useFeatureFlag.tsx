@@ -1,7 +1,7 @@
-import type { FeatureFlags } from '../model/store'
+import type { FeatureFlagsAtom } from '../model/store'
 import { featureFlags } from '../model/store'
 
-export function useFeatureFlag(featureFlag: keyof FeatureFlags) {
+export function useFeatureFlag(featureFlag: keyof FeatureFlagsAtom) {
   const features = featureFlags()
 
   return features[featureFlag]

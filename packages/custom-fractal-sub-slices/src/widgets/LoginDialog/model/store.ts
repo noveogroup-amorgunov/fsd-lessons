@@ -1,4 +1,4 @@
-import { action, atom, parseAtoms, withAsyncData, wrap } from '@reatom/core'
+import { action, atom, withAsyncData } from '@reatom/core'
 import { baseApi, baseApiAccessToken } from '~/shared/api/base'
 
 export const email = atom<Email>('', 'email')
@@ -9,16 +9,16 @@ export const submitForm = action(async () => {
   // FIXME: Add base validation
   // if (!isFormValid()) return
 
-  const formData = parseAtoms({
-    email,
-    password,
-  })
+  const formData = {
+    email: email(),
+    password: password(),
+  }
 
-  const response = await wrap(baseApi.login(formData))
+  const response = await baseApi.login(formData)
 
-  baseApiAccessToken(response.accessToken)
+  baseApiAccessToken.set(response.accessToken)
 
   // Reset form after submission
-  email('')
-  password('')
+  email.set('')
+  password.set('')
 }, 'submitForm').extend(withAsyncData())
