@@ -1,7 +1,6 @@
-import { wrap } from '@reatom/core'
 import { reatomComponent } from '@reatom/react'
 import { Dialog as DialogWrapper } from '../../ui/Dialog'
-import { dialogs } from '../model/store'
+import { closeDialog, dialogs } from '../model/store'
 
 export const DialogManagerProvider = reatomComponent(() => {
   return dialogs().map(({ Component, props }, index) => (
@@ -9,15 +8,15 @@ export const DialogManagerProvider = reatomComponent(() => {
       key={Component.displayName ?? Component.name ?? index}
       open={true}
       title={props.title}
-      onOpenChange={wrap((open) => {
+      onOpenChange={(open) => {
         if (!open) {
-          dialogs.close(Component)
+          closeDialog(Component)
         }
-      })}
+      }}
     >
       <Component
         {...props}
-        onClose={wrap(() => dialogs.close(Component))}
+        onClose={() => closeDialog(Component)}
       />
     </DialogWrapper>
   ))

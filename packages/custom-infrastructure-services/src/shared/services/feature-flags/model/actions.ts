@@ -1,10 +1,10 @@
-import { computed, withAsync, wrap } from '@reatom/core'
-import type { FeatureFlags } from './store'
+import { computed, withAsync } from '@reatom/core'
+import type { FeatureFlagsAtom } from './store'
 import { featureFlags, localStorageKey } from './store'
 
 export const featureFlagsResource = computed(async () => {
   // Emulate loading feature flags from api
-  const featureFlagsFromApi = await wrap(new Promise((resolve) => {
+  const featureFlagsFromApi = (await new Promise((resolve) => {
     setTimeout(() => {
       resolve({
         darkTheme: true,
@@ -12,14 +12,16 @@ export const featureFlagsResource = computed(async () => {
         navbarV2: false,
       })
     }, 1000)
-  })) as Promise<FeatureFlags>
+  })) as FeatureFlagsAtom
 
-  const featuresFromLocalStorage = JSON.parse(localStorage.getItem(localStorageKey) || '{}')
+  const featuresFromLocalStorage = JSON.parse(
+    localStorage.getItem(localStorageKey) || '{}',
+  )
 
   const features = {
     ...featureFlagsFromApi,
-    ...featuresFromLocalStorage,
+    ...featuresFromLocalStorage.data,
   }
 
-  featureFlags(features)
+  featureFlags.set(features)
 }, 'featureFlagsResource').extend(withAsync())

@@ -10,7 +10,11 @@ export const FeatureTogglerV2 = reatomComponent(() => {
 
   return (
     <div className="flex">
-      <button ref={buttonRef} onClick={() => show({ title: 'Feature flags', triggerRef: buttonRef })} className="cursor-pointer">
+      <button
+        ref={buttonRef}
+        onClick={() => show({ title: 'Feature flags', triggerRef: buttonRef })}
+        className="cursor-pointer"
+      >
         <GearIcon width={24} height={24} />
       </button>
     </div>

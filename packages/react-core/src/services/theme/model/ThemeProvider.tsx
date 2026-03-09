@@ -1,23 +1,22 @@
-import { wrap } from '@reatom/core'
 import { reatomComponent } from '@reatom/react'
 import { useEffect } from 'react'
-import { theme } from './store'
 import { useFeatureFlag } from '../../feature-flags'
+import { theme } from './store'
 
 export const ThemeProvider = reatomComponent(({ children }: { children: React.ReactNode }) => {
   const currentTheme = theme()
   const darkThemeIsEnabled = useFeatureFlag('darkTheme')
 
   // Turn off dark theme if feature flag is disabled
-  useEffect(wrap(() => {
+  useEffect(() => {
     if (!darkThemeIsEnabled && currentTheme === 'dark') {
-      theme('light')
+      theme.set('light')
     }
-  }), [darkThemeIsEnabled])
+  }, [darkThemeIsEnabled])
 
-  useEffect(wrap(() => {
+  useEffect(() => {
     document.documentElement.setAttribute('data-theme', currentTheme)
-  }), [currentTheme])
+  }, [currentTheme])
 
   return children
 }, 'ThemeProvider')

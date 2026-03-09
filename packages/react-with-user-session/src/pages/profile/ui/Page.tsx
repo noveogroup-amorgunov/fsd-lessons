@@ -1,4 +1,3 @@
-import { wrap } from '@reatom/core'
 import { reatomComponent } from '@reatom/react'
 import { useEffect } from 'react'
 import { useLocation } from 'wouter'
@@ -12,11 +11,11 @@ export const ProfilePage = reatomComponent(() => {
   // FIXME: Move to router data loader
   const userIsReady = userResource.ready()
 
-  useEffect(wrap(() => {
+  useEffect(() => {
     if (!isAuthorized()) {
       navigate('/')
     }
-  }), [isAuthorized(), navigate])
+  }, [isAuthorized(), navigate])
 
   if (!userIsReady) {
     return <div>Loading...</div>

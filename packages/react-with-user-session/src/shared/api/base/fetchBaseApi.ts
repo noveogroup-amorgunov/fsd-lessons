@@ -35,7 +35,7 @@ export async function fecthBaseApi<T>(endpoint: string, options: Options = {}): 
   // TODO: Add 401 error handling
 
   if (!response.ok) {
-    throw new ApiError('Failed to fetch Pokémon data', await response.json())
+    throw new ApiError('Failed to fetch', await response.json())
   }
 
   return await response.json() as T

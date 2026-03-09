@@ -33,10 +33,7 @@ export const LoginForm = reatomComponent(() => {
     <form data-fsd="widget/LoginDialog">
       <div className="flex flex-col gap-1 p-6">
         <fieldset className="mb-[15px] flex items-center gap-5">
-          <label
-            className="w-[90px] text-right text-[15px]"
-            htmlFor="email"
-          >
+          <label className="w-[90px] text-right text-[15px]" htmlFor="email">
             Email
           </label>
           <input
@@ -49,10 +46,7 @@ export const LoginForm = reatomComponent(() => {
           />
         </fieldset>
         <fieldset className="mb-[15px] flex items-center gap-5">
-          <label
-            className="w-[90px] text-right text-[15px]"
-            htmlFor="password"
-          >
+          <label className="w-[90px] text-right text-[15px]" htmlFor="password">
             Password
           </label>
           <input
@@ -64,7 +58,12 @@ export const LoginForm = reatomComponent(() => {
           />
         </fieldset>
         <div className="flex justify-end">
-          <Button className="w-full ml-[110px]" type="submit" disabled={isLoading} onClick={submitForm}>
+          <Button
+            className="w-full ml-[110px]"
+            type="submit"
+            disabled={isLoading}
+            onClick={submitForm}
+          >
             {isLoading ? <UpdateIcon className="animate-spin" /> : 'Login'}
           </Button>
         </div>

@@ -1,3 +1,3 @@
 export { DialogManagerProvider } from './lib/DialogManagerProvider'
 export { useDialog } from './lib/useDialog'
-export { dialogs } from './model/store'
+export { closeDialog, dialogs, openDialog } from './model/store'

@@ -1,5 +1,4 @@
-import { withLocalStorage } from '@monorepo/react-core/lib/reatom'
-import { atom } from '@reatom/core'
+import { action, atom, withLocalStorage } from '@reatom/core'
 
 const localStorageVersion = 'v3'
 export const localStorageKey = `featureFlags.${localStorageVersion}`
@@ -16,9 +15,11 @@ export const featureFlags = atom<FeatureFlags>({
   fsdDebugMode: true,
   navbarV2: false,
 }, 'featureFlags')
-  .actions(target => ({
-    toggle: (featureFlag: keyof FeatureFlags) => target((state) => {
-      return { ...state, [featureFlag]: !state[featureFlag] }
-    }),
-  }))
+  .extend((target) => {
+    return {
+      toggle: action ((featureFlag: keyof FeatureFlags) => {
+        target.set(state => ({ ...state, [featureFlag]: !state[featureFlag] }))
+      }, `${target.name}.toggle`),
+    }
+  })
   .extend(withLocalStorage(localStorageKey))

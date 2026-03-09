@@ -1,4 +1,4 @@
-import { ThemeToggler } from '~/entities/theme/ui/ThemeToggler'
+import { ThemeToggler } from '~/entities/theme'
 
 export function HomePage() {
   return (

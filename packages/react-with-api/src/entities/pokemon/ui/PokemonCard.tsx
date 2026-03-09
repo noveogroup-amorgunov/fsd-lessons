@@ -1,6 +1,6 @@
 import { reatomComponent } from '@reatom/react'
+import type { Pokemon } from '../model/types'
 import { PokemonCardStub } from './PokemonCardStub'
-import { Pokemon } from '../model/types'
 
 type Props = {
   data?: Pokemon
@@ -9,7 +9,7 @@ type Props = {
 }
 
 // now PokemonCard has direct connection with pokemonResource
-// idk how correct this is, but it's not that important here (we learn api) 
+// idk how correct this is, but it's not that important here (we learn api)
 export const PokemonCard = reatomComponent((props: Props) => {
   const { data, isLoading, error } = props
 

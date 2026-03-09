@@ -1,5 +1,4 @@
-import { withLocalStorage } from '../../../shared/lib/reatom'
-import { atom } from '@reatom/core'
+import { action, atom, withLocalStorage } from '@reatom/core'
 
 export type FeatureFlagsAtom = {
   darkTheme: boolean
@@ -10,9 +9,11 @@ export const featureFlags = atom<FeatureFlagsAtom>({
   darkTheme: true,
   fsdDebugMode: true,
 }, 'featureFlags')
-  .actions(target => ({
-    toggle: (featureFlag: keyof FeatureFlagsAtom) => target((state) => {
-      return { ...state, [featureFlag]: !state[featureFlag] }
-    }),
-  }))
+  .extend((target) => {
+    return {
+      toggle: action ((featureFlag: keyof FeatureFlagsAtom) => {
+        target.set(state => ({ ...state, [featureFlag]: !state[featureFlag] }))
+      }, `${target.name}.toggle`),
+    }
+  })
   .extend(withLocalStorage('featureFlags'))

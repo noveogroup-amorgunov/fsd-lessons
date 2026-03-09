@@ -18,6 +18,7 @@ export function Dialog({ open, onOpenChange, children, title }: Props) {
             {title && <DialogPrimitive.Title className="m-0 text-[17px] font-medium">{title}</DialogPrimitive.Title>}
             {children}
             <button
+              type="button"
               onClick={(e) => {
                 e.stopPropagation()
                 onOpenChange(false)

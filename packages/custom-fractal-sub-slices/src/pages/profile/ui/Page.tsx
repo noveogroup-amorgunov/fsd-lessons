@@ -1,4 +1,3 @@
-import { wrap } from '@reatom/core'
 import { reatomComponent } from '@reatom/react'
 import { useEffect } from 'react'
 import { useLocation } from 'wouter'
@@ -12,11 +11,11 @@ export const ProfilePage = reatomComponent(() => {
   // FIXME: Move to router data loader
   const userIsReady = userResource.ready()
 
-  useEffect(wrap(() => {
+  useEffect(() => {
     if (!isAuthorized()) {
       navigate('/')
     }
-  }), [isAuthorized(), navigate])
+  }, [isAuthorized(), navigate])
 
   if (!userIsReady) {
     return <div>Loading...</div>
@@ -27,18 +26,17 @@ export const ProfilePage = reatomComponent(() => {
   }
 
   return (
-    <main data-fsd="page/profile" className="flex-grow dark:bg-black dark:text-white">
+    <main
+      data-fsd="page/profile"
+      className="flex-grow dark:bg-black dark:text-white"
+    >
       <h1 className="text-3xl font-bold">Profile page</h1>
       <div className="flex flex-col gap-4 mt-10">
         <p>
-          Your name is
-          {' '}
-          <strong>{currentUser.name}</strong>
+          Your name is <strong>{currentUser.name}</strong>
         </p>
         <p>
-          Your email is
-          {' '}
-          <strong>{currentUser.email}</strong>
+          Your email is <strong>{currentUser.email}</strong>
         </p>
       </div>
     </main>

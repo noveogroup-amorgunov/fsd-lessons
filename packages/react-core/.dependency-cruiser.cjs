@@ -3,14 +3,14 @@ const process = require('node:process')
 const collapsePattern = process.env.FULL_GRAPH
   ? 'node_modules/(?:@[^/]+/[^/]+|[^/]+)'
   : [
-    'src/(app)/providers/[^/]+/',
-    'src/(entities/[^/]+/)',
-    'src/(features/[^/]+/)',
-    'src/(pages/[^/]+/)',
-    'src/(widgets/[^/]+/)',
-    'src/(shared/services/[^/]+/)',
-    'src/(shared/[^/]+/)',
-  ]
+      'src/(app)/providers/[^/]+/',
+      'src/(entities/[^/]+/)',
+      'src/(features/[^/]+/)',
+      'src/(pages/[^/]+/)',
+      'src/(widgets/[^/]+/)',
+      'src/(shared/services/[^/]+/)',
+      'src/(shared/[^/]+/)',
+    ]
 
 /** @type {import('dependency-cruiser').IConfiguration} */
 module.exports = {

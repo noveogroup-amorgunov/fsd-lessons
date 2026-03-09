@@ -1,6 +1,7 @@
 import { withChangeHook, withInit } from '@reatom/core'
 import type { GenericExt } from '@reatom/core'
 
+/** @deprecated use hook for @reatom/core */
 export function withLocalStorage(key?: string): GenericExt {
   return target =>
     target.extend(

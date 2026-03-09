@@ -1,5 +1,5 @@
 import { ThemeToggler } from '@monorepo/react-core/services/theme'
-import { FeatureToggler } from '~/entities/feature-flags/ui/FeatureToggler'
+import { FeatureToggler } from '~/entities/feature-flags'
 
 export function HomePage() {
   return (

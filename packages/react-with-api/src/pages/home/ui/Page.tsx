@@ -1,5 +1,4 @@
 import { Button } from '@monorepo/react-core/uikit'
-import { wrap } from '@reatom/core'
 import { reatomComponent } from '@reatom/react'
 import type { FormEvent } from 'react'
 import { PokemonCard } from '~/entities/pokemon'
@@ -7,15 +6,15 @@ import { Input } from '~/shared/ui/Input'
 import { queryAtom, selectedPokemonId, selectedPokemonResource } from '../model/store'
 
 export const HomePage = reatomComponent(() => {
-  const query = queryAtom() 
+  const query = queryAtom()
   const ready = selectedPokemonResource.ready()
   const data = selectedPokemonResource.data()
   const error = selectedPokemonResource.error()
 
-  const handleSubmit = wrap((event: FormEvent<HTMLFormElement>) => {
+  const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault()
-    selectedPokemonId(Number(query))
-  })
+    selectedPokemonId.set(Number(query))
+  }
 
   return (
     <main data-fsd="page/home" className="flex-grow dark:bg-black dark:text-white">
@@ -23,7 +22,7 @@ export const HomePage = reatomComponent(() => {
       <div className="flex flex-col gap-4 my-10">
         <h2>Fetch a pokemon by id</h2>
         <form onSubmit={handleSubmit} className="max-w-[300px]">
-          <Input type="text" value={query} onChange={wrap((e) => { queryAtom(e.currentTarget.value) })} />
+          <Input type="text" value={query} onChange={e => queryAtom.set(e.currentTarget.value)} />
           <Button disabled={!ready} type="submit">{ready ? 'Load a pokemon by id' : 'Loading...'}</Button>
         </form>
       </div>
